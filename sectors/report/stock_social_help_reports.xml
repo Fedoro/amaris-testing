@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<openerp>
+<!--<data noupdate = "1">-->
+<data>
+    <!-- Decreto Definition -->
+    <record id="social_stock_help_decreto_report" model="ir.actions.report.xml">
+        <field name="name">Imprimir Decreto</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">social.voucher</field>
+        <field name="report_name">decreto</field>
+        <field name="report_type">aeroo</field>
+        <field name="in_format">oo-odt</field>
+	<field name="out_format" eval="ref('report_aeroo_ooo.report_mimetypes_pdf_odt')"/>
+        <field name="parser_loc">stock_social_help/report/parser.py</field>
+        <field name="report_rml">stock_social_help/report/template_decreto.odt</field>
+        <field name="parser_state">loc</field>
+        <field name="tml_source">file</field>
+    </record>
+
+    <!-- This record add the decreto print button to the voucher form -->
+    <ir_set>
+        <field eval="'action'" name="key"/>
+        <field eval="'client_print_multi'" name="key2"/>
+        <field eval="['social.voucher']" name="models"/>
+        <field name="name">decreto</field>
+        <field eval="'ir.actions.report.xml,'+str(social_stock_help_decreto_report)" name="value"/>
+        <field eval="True" name="isobject"/>
+        <field eval="True" name="replace"/>
+    </ir_set>
+
+<!--·······························································································································-->
+
+    <!-- Social Report Definition -->
+    <record id="social_stock_help_social_report" model="ir.actions.report.xml">
+        <field name="name">Imprimir Informe Social</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">social.voucher</field>
+        <field name="report_name">informe_social</field>
+        <field name="report_type">aeroo</field>
+        <field name="in_format">oo-odt</field>
+	<field name="out_format" eval="ref('report_aeroo_ooo.report_mimetypes_pdf_odt')"/>
+        <field name="parser_loc">stock_social_help/report/parser.py</field>
+        <field name="report_rml">stock_social_help/report/template_informe_social.odt</field>
+        <field name="parser_state">loc</field>
+        <field name="tml_source">file</field>
+    </record>
+
+    <!-- This record add the social report print button to the voucher form -->
+    <ir_set>
+        <field eval="'action'" name="key"/>
+        <field eval="'client_print_multi'" name="key2"/>
+        <field eval="['social.voucher']" name="models"/>
+        <field name="name">informe_social</field>
+        <field eval="'ir.actions.report.xml,'+str(social_stock_help_social_report)" name="value"/>
+        <field eval="True" name="isobject"/>
+        <field eval="True" name="replace"/>
+    </ir_set>
+
+<!--·······························································································································-->
+
+    <!-- Delivery Act Definition -->
+    <record id="social_stock_help_delivery_act_report" model="ir.actions.report.xml">
+        <field name="name">Imprimir Acta de Entrega</field>
+        <field name="type">ir.actions.report.xml</field>
+        <field name="model">delivery.act</field>
+        <field name="report_name">acta_entrega</field>
+        <field name="report_type">aeroo</field>
+        <field name="in_format">oo-odt</field>
+	<field name="out_format" eval="ref('report_aeroo_ooo.report_mimetypes_pdf_odt')"/>
+        <field name="parser_loc">stock_social_help/report/parser.py</field>
+        <field name="report_rml">stock_social_help/report/template_acta_entrega.odt</field>
+        <field name="parser_state">loc</field>
+        <field name="tml_source">file</field>
+    </record>
+
+    <!-- This record add the social report print button to the voucher form -->
+    <ir_set>
+        <field eval="'action'" name="key"/>
+        <field eval="'client_print_multi'" name="key2"/>
+        <field eval="['social.voucher']" name="models"/>
+        <field name="name">acta_entrega</field>
+        <field eval="'ir.actions.report.xml,'+str(social_stock_help_delivery_act_report)" name="value"/>
+        <field eval="True" name="isobject"/>
+        <field eval="True" name="replace"/>
+    </ir_set>
+
+</data>
+</openerp>

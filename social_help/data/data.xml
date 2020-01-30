@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		<!-- Sectors -->
+		<record id="sector_0" model="social.sector">
+			<field name="name">Freire</field>
+			<field name="code">9105</field>
+		</record>
+</odoo>

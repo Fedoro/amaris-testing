@@ -1,0 +1,1123 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* family
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.1-20120704-233358\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-13 03:29+0000\n"
+"PO-Revision-Date: 2012-09-13 03:29+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: family
+#: field:family.group.member,member_code:0
+msgid "code"
+msgstr "code"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Father-in-Law or Mother-in-Law"
+msgstr "Father-in-Law or Mother-in-Law"
+
+#. module: family
+#: field:family.group.member,member_suf:0
+msgid "SUF"
+msgstr "SUF"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "Student"
+msgstr "Student"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "2 High School"
+msgstr "2 High School"
+
+#. module: family
+#: field:family.group.member,member_O9:0
+msgid "O9"
+msgstr "O9"
+
+#. module: family
+#: field:family.group.member,member_income:0
+msgid "Income"
+msgstr "Income"
+
+#. module: family
+#: field:family.group.member,member_O7:0
+msgid "O7"
+msgstr "O7"
+
+#. module: family
+#: field:family.group.member,member_O6:0
+msgid "O6"
+msgstr "O6"
+
+#. module: family
+#: field:family.group.member,member_O5:0
+msgid "O5"
+msgstr "O5"
+
+#. module: family
+#: field:family.group.member,member_O4:0
+msgid "O4"
+msgstr "O4"
+
+#. module: family
+#: field:family.group.member,member_O3:0
+msgid "O3"
+msgstr "O3"
+
+#. module: family
+#: field:family.group.member,member_O2:0
+msgid "O2"
+msgstr "O2"
+
+#. module: family
+#: field:family.group.member,member_O1:0
+msgid "O1"
+msgstr "O1"
+
+#. module: family
+#: field:family.group.member,member_hours:0
+msgid "Hours"
+msgstr "Hours"
+
+#. module: family
+#: view:family.group.member:0
+msgid "Travel times to the emergency and transportation"
+msgstr "Travel times to the emergency and transportation"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Parent"
+msgstr "Parent"
+
+#. module: family
+#: selection:family.group.member,member_marital_status:0
+msgid "Widow/er"
+msgstr "Widow/er"
+
+#. module: family
+#: field:family.group.member,member_head:0
+msgid "Head of Family"
+msgstr "Head of Family"
+
+#. module: family
+#: field:family.group,family_supervisor_code:0
+msgid "Supervisor Code"
+msgstr "Supervisor Code"
+
+#. module: family
+#: model:ir.actions.act_window,name:family.action_family_group_member
+msgid "Family Group Members"
+msgstr "Family Group Members"
+
+#. module: family
+#: field:family.group.member,member_S3:0
+msgid "S3"
+msgstr "S3"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "8 Primary School"
+msgstr "8 Primary School"
+
+#. module: family
+#: field:family.group.member,member_S2:0
+msgid "S2"
+msgstr "S2"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Brother or Sister"
+msgstr "Brother or Sister"
+
+#. module: family
+#: field:family.group.member,member_S1:0
+msgid "S1"
+msgstr "S1"
+
+#. module: family
+#: field:family.group.member,member_S5f:0
+msgid "S5f"
+msgstr "S5f"
+
+#. module: family
+#: field:family.group.member,member_S5e:0
+msgid "S5e"
+msgstr "S5e"
+
+#. module: family
+#: field:family.group.member,member_S5d:0
+msgid "S5d"
+msgstr "S5d"
+
+#. module: family
+#: view:family.group.member:0
+msgid "Incoming"
+msgstr "Incoming"
+
+#. module: family
+#: field:family.group.member,member_S5b:0
+msgid "S5b"
+msgstr "S5b"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "Hostess"
+msgstr "Hostess"
+
+#. module: family
+#: field:family.group.member,member_S7:0
+msgid "S7"
+msgstr "S7"
+
+#. module: family
+#: selection:family.group.member,member_marital_status:0
+msgid "Married"
+msgstr "Married"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Only Son/Daughter of the Spouse or Partner"
+msgstr "Only Son/Daughter of the Spouse or Partner"
+
+#. module: family
+#: field:family.group.member,member_S6:0
+msgid "S6"
+msgstr "S6"
+
+#. module: family
+#: code:addons/family/family.py:295
+#, python-format
+msgid "Error!"
+msgstr "Error!"
+
+#. module: family
+#: field:family.group.member,member_O11e:0
+msgid "O11e"
+msgstr "O11e"
+
+#. module: family
+#: view:family.group:0
+msgid "Family Tree"
+msgstr "Family Tree"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "Technical Degree Complete"
+msgstr "Technical Degree Complete"
+
+#. module: family
+#: field:family.group.member,member_S4:0
+msgid "S4"
+msgstr "S4"
+
+#. module: family
+#: field:family.group.member,member_mins:0
+msgid "Minutes"
+msgstr "Minutes"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Head of Household"
+msgstr "Head of Household"
+
+#. module: family
+#: field:family.group,family_dwelling_people_number_nonincluded:0
+msgid "Number of People non-included on the Social File"
+msgstr "Number of People non-included on the Social File"
+
+#. module: family
+#: field:family.group,family_review_date:0
+msgid "Communal Review Date"
+msgstr "Communal Review Date"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "Technical Degree Uncomplete"
+msgstr "Technical Degree Uncomplete"
+
+#. module: family
+#: view:family.group:0
+msgid "File Management"
+msgstr "File Management"
+
+#. module: family
+#: view:family.group:0
+msgid "Statement Qualified Informant"
+msgstr "Statement Qualified Informant"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "7 Primary School"
+msgstr "7 Primary School"
+
+#. module: family
+#: field:family.group,family_references:0
+msgid "Family References"
+msgstr "Family References"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "High School Complete"
+msgstr "High School Complete"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Grandfather or Grandmother"
+msgstr "Grandfather or Grandmother"
+
+#. module: family
+#: field:family.group.member,member_E3:0
+msgid "E3"
+msgstr "E3"
+
+#. module: family
+#: selection:family.group.member,member_gender:0
+msgid "Female"
+msgstr "Female"
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "FONASA D"
+msgstr "FONASA D"
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "FONASA E"
+msgstr "FONASA E"
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "FONASA B"
+msgstr "FONASA B"
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "FONASA C"
+msgstr "FONASA C"
+
+#. module: family
+#: field:family.group.member,member_transport:0
+msgid "Transport"
+msgstr "Transport"
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "FONASA A"
+msgstr "FONASA A"
+
+#. module: family
+#: field:family.group,family_street_name:0
+msgid "Street Name"
+msgstr "Street Name"
+
+#. module: family
+#: field:family.group.member,member_date_of_death:0
+msgid "Date of Death"
+msgstr "Date of Death"
+
+#. module: family
+#: field:family.group,family_dwelling_excretion_system:0
+msgid "Excretions Elimination System"
+msgstr "Excretions Elimination System"
+
+#. module: family
+#: field:family.group,family_zone:0
+msgid "Zone"
+msgstr "Zone"
+
+#. module: family
+#: field:family.group,family_inspector_code:0
+msgid "Inspector Code"
+msgstr "Inspector Code"
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "ISAPRE"
+msgstr "ISAPRE"
+
+#. module: family
+#: field:family.group.member,member_O8:0
+msgid "O8"
+msgstr "O8"
+
+#. module: family
+#: field:family.group,family_score_date:0
+msgid "Score Date"
+msgstr "Score Date"
+
+#. module: family
+#: view:family.group:0
+#: model:ir.actions.act_window,name:family.action_family_group
+#: model:ir.model,name:family.model_family_group
+msgid "Family Group"
+msgstr "Family Group"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "3 Primary School"
+msgstr "3 Primary School"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "2 Primary School"
+msgstr "2 Primary School"
+
+#. module: family
+#: selection:family.group.member,member_pension:0
+msgid "State"
+msgstr "State"
+
+#. module: family
+#: field:family.group,family_dwelling_bathroom:0
+msgid "Bathroom Use"
+msgstr "Bathroom Use"
+
+#. module: family
+#: field:family.group,family_income_description:0
+msgid "Family Income Descriptions"
+msgstr "Family Income Descriptions"
+
+#. module: family
+#: field:family.group,family_block:0
+msgid "Block/House"
+msgstr "Block/House"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "1 High School"
+msgstr "1 High School"
+
+#. module: family
+#: field:family.group,family_department_site:0
+msgid "Department/Site"
+msgstr "Department/Site"
+
+#. module: family
+#: view:family.group.member:0
+msgid "Family Member Form"
+msgstr "Family Member Form"
+
+#. module: family
+#: selection:family.group.member,member_pension:0
+msgid "IPS"
+msgstr "IPS"
+
+#. module: family
+#: field:family.group.member,member_date_birth:0
+msgid "Date of Birth"
+msgstr "Date of Birth"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "Unemployed"
+msgstr "Unemployed"
+
+#. module: family
+#: view:family.group:0
+#: view:family.group.member:0
+msgid "Group By"
+msgstr "Group By"
+
+#. module: family
+#: field:family.group,family_dwelling:0
+msgid "Dwelling References"
+msgstr "Dwelling References"
+
+#. module: family
+#: field:family.group.member,member_out_of_dwelling:0
+msgid "Sleeps Outside the Family Dwelling"
+msgstr "Sleeps Outside the Family Dwelling"
+
+#. module: family
+#: field:family.group.member,member_E4:0
+msgid "E4"
+msgstr "E4"
+
+#. module: family
+#: field:family.group,family_health:0
+msgid "Family Health"
+msgstr "Family Health"
+
+#. module: family
+#: field:family.group.member,member_E1:0
+msgid "E1"
+msgstr "E1"
+
+#. module: family
+#: view:family.group.member:0
+msgid "Ocupation"
+msgstr "Ocupation"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "Casual Worker"
+msgstr "Casual Worker"
+
+#. module: family
+#: field:family.group.member,member_E2:0
+msgid "E2"
+msgstr "E2"
+
+#. module: family
+#: view:family.group:0
+msgid "Last Update"
+msgstr "Last Update"
+
+#. module: family
+#: view:family.group.member:0
+msgid "Family Group Member Searching"
+msgstr "Family Group Member Searching"
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+#: selection:family.group.member,member_pension:0
+#: selection:family.group.member,member_schooling:0
+#: selection:family.group.member,member_suf:0
+msgid "None"
+msgstr "None"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Another Relative"
+msgstr "Another Relative"
+
+#. module: family
+#: field:family.group,family_dwelling_water_distribution:0
+msgid "Water Distribution on Dwelling"
+msgstr "Water Distribution on Dwelling"
+
+#. module: family
+#: selection:family.group.member,member_marital_status:0
+msgid "Divorced"
+msgstr "Divorced"
+
+#. module: family
+#: sql_constraint:family.group.member:0
+msgid "The Rut is already in the records!"
+msgstr "The Rut is already in the records!"
+
+#. module: family
+#: field:family.group.member,member_age:0
+msgid "Age"
+msgstr "Age"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "Stable Worker"
+msgstr "Stable Worker"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "3 High School"
+msgstr "3 High School"
+
+#. module: family
+#: field:family.group.member,member_retirement_pension:0
+msgid "Retirement or Pension"
+msgstr "Retirement or Pension"
+
+#. module: family
+#: model:res.groups,name:family.group_family_view
+msgid "Family View"
+msgstr "Family View"
+
+#. module: family
+#: field:family.group,family_dwelling_water_source:0
+msgid "Dwelling Water Source"
+msgstr "Dwelling Water Source"
+
+#. module: family
+#: field:family.group,family_apple_code:0
+msgid "Apple ID"
+msgstr "Apple ID"
+
+#. module: family
+#: field:family.group,family_dwelling_ownership:0
+msgid "Dwelling Ownership"
+msgstr "Dwelling Ownership"
+
+#. module: family
+#: selection:family.group.member,member_gender:0
+msgid "Male"
+msgstr "Male"
+
+#. module: family
+#: selection:family.group.member,member_pension:0
+msgid "AFP"
+msgstr "AFP"
+
+#. module: family
+#: field:family.group.member,member_full_name:0
+msgid "Full Name"
+msgstr "Full Name"
+
+#. module: family
+#: field:family.group,family_dwelling_principal:0
+msgid "Principal Family of the Dwelling"
+msgstr "Principal Family of the Dwelling"
+
+#. module: family
+#: view:family.group.member:0
+msgid "Education"
+msgstr "Education"
+
+#. module: family
+#: field:family.group.member,member_anual_income_working:0
+msgid "Anual Income Working"
+msgstr "Anual Income Working"
+
+#. module: family
+#: field:family.group,family_street_code:0
+msgid "Street ID"
+msgstr "Street ID"
+
+#. module: family
+#: view:family.group.member:0
+msgid "Social Help File"
+msgstr "Social Help File"
+
+#. module: family
+#: field:family.group.member,member_schooling:0
+msgid "Schooling"
+msgstr "Schooling"
+
+#. module: family
+#: view:family.group:0
+msgid "Family Group Searching"
+msgstr "Family Group Searching"
+
+#. module: family
+#: view:family.group:0
+msgid "Family Dwelling Description"
+msgstr "Family Dwelling Description"
+
+#. module: family
+#: selection:family.group.member,member_marital_status:0
+msgid "Cohabitant"
+msgstr "Cohabitant"
+
+#. module: family
+#: field:family.group,family_name_localization:0
+msgid "Name of Living Place"
+msgstr "Name of Living Place"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "4 Primary School"
+msgstr "4 Primary School"
+
+#. module: family
+#: field:family.group.member,member_O11c:0
+msgid "O11c"
+msgstr "O11c"
+
+#. module: family
+#: field:family.group.member,member_O11b:0
+msgid "O11b"
+msgstr "O11b"
+
+#. module: family
+#: field:family.group.member,member_O11a:0
+msgid "O11a"
+msgstr "O11a"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Only Son/Daughter of the Household Head"
+msgstr "Only Son/Daughter of the Household Head"
+
+#. module: family
+#: field:family.group.member,member_O11g:0
+msgid "O11g"
+msgstr "O11g"
+
+#. module: family
+#: field:family.group.member,member_O11f:0
+msgid "O11f"
+msgstr "O11f"
+
+#. module: family
+#: view:family.group:0
+msgid "Family Group Identification"
+msgstr "Family Group Identification"
+
+#. module: family
+#: field:family.group.member,member_O11d:0
+msgid "O11d"
+msgstr "O11d"
+
+#. module: family
+#: view:family.group.member:0
+msgid "Health"
+msgstr "Health"
+
+#. module: family
+#: field:family.group,family_people_folio:0
+msgid "Number of Folio People"
+msgstr "Number of Folio People"
+
+#. module: family
+#: view:family.group:0
+msgid "Dwelling Details"
+msgstr "Dwelling Details"
+
+#. module: family
+#: field:family.group,family_decile:0
+msgid "Family Decile"
+msgstr "Family Decile"
+
+#. module: family
+#: field:family.group,family_supervision_date:0
+msgid "Communal Supervision Date"
+msgstr "Communal Supervision Date"
+
+#. module: family
+#: field:family.group.member,member_S8a:0
+msgid "S8a"
+msgstr "S8a"
+
+#. module: family
+#: field:family.group.member,member_S8b:0
+msgid "S8b"
+msgstr "S8b"
+
+#. module: family
+#: field:family.group.member,member_S8c:0
+msgid "S8c"
+msgstr "S8c"
+
+#. module: family
+#: field:family.group.member,member_S8d:0
+msgid "S8d"
+msgstr "S8d"
+
+#. module: family
+#: field:family.group.member,member_S8e:0
+msgid "S8e"
+msgstr "S8e"
+
+#. module: family
+#: view:family.group:0
+msgid "Localization"
+msgstr "Localization"
+
+#. module: family
+#: field:family.group,family_site_ownership:0
+msgid "Site Ownership"
+msgstr "Site Ownership"
+
+#. module: family
+#: field:family.group,family_quintile:0
+msgid "Family Quitile"
+msgstr "Family Quitile"
+
+#. module: family
+#: field:family.group,family_informant:0
+msgid "Family Authorized Informant"
+msgstr "Family Authorized Informant"
+
+#. module: family
+#: field:family.group,family_commune_id:0
+msgid "Commune ID"
+msgstr "Commune ID"
+
+#. module: family
+#: field:family.group,family_folio:0
+#: view:family.group.member:0
+#: field:family.group.member,member_folio:0
+msgid "Unic National Folio"
+msgstr "Unic National Folio"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "In Well-Child"
+msgstr "In Well-Child"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "6 Primary School"
+msgstr "6 Primary School"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "High School Uncomplete"
+msgstr "High School Uncomplete"
+
+#. module: family
+#: field:family.group,family_members:0
+#: model:ir.model,name:family.model_family_group_member
+msgid "Family Members"
+msgstr "Family Members"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Brother-in-law or Sister-in-law"
+msgstr "Brother-in-law or Sister-in-law"
+
+#. module: family
+#: model:res.groups,name:family.group_family_edit
+msgid "Family Edit"
+msgstr "Family Edit"
+
+#. module: family
+#: field:family.group.member,member_O10a:0
+msgid "O10a"
+msgstr "O10a"
+
+#. module: family
+#: field:family.group.member,member_O10b:0
+msgid "O10b"
+msgstr "O10b"
+
+#. module: family
+#: field:family.group.member,member_O10c:0
+msgid "O10c"
+msgstr "O10c"
+
+#. module: family
+#: field:family.group.member,member_O10d:0
+msgid "O10d"
+msgstr "O10d"
+
+#. module: family
+#: field:family.group.member,member_O10e:0
+msgid "O10e"
+msgstr "O10e"
+
+#. module: family
+#: field:family.group.member,member_O10f:0
+msgid "O10f"
+msgstr "O10f"
+
+#. module: family
+#: field:family.group,family_dwelling_rooms:0
+msgid "Number of Bedrooms"
+msgstr "Number of Bedrooms"
+
+#. module: family
+#: field:family.group.member,member_other_incomes:0
+msgid "Other Incomes"
+msgstr "Other Incomes"
+
+#. module: family
+#: field:family.group.member,member_order:0
+msgid "Family Order"
+msgstr "Family Order"
+
+#. module: family
+#: field:family.group,family_address_number:0
+msgid "Address Number"
+msgstr "Address Number"
+
+#. module: family
+#: view:family.group.member:0
+#: field:family.group.member,member_situation_eva:0
+msgid "Situation and Professional Evaluation"
+msgstr "Situation and Professional Evaluation"
+
+#. module: family
+#: field:family.group,family_application_date:0
+msgid "File Application Date"
+msgstr "File Application Date"
+
+#. module: family
+#: view:family.group.member:0
+msgid "General Data"
+msgstr "General Data"
+
+#. module: family
+#: field:family.group,family_type_housing_gr:0
+msgid "Type of Housing Group"
+msgstr "Type of Housing Group"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Grandson or Granddaughter"
+msgstr "Grandson or Granddaughter"
+
+#. module: family
+#: view:family.group:0
+msgid "Sector"
+msgstr "Sector"
+
+#. module: family
+#: field:family.group.member,member_indigen:0
+msgid "Belongs to an Indigen Heritage"
+msgstr "Belongs to an Indigen Heritage"
+
+#. module: family
+#: field:family.group.member,member_O12:0
+msgid "O12"
+msgstr "O12"
+
+#. module: family
+#: field:family.group,family_coord:0
+msgid "Geographical Coordinates"
+msgstr "Geographical Coordinates"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Spounse or Partner"
+msgstr "Spounse or Partner"
+
+#. module: family
+#: field:family.group,family_last_update_date:0
+msgid "Lastest Update Date"
+msgstr "Lastest Update Date"
+
+#. module: family
+#: field:family.group,family_last_update_pollster_code:0
+#: field:family.group,family_pollster_code:0
+msgid "Pollster Code"
+msgstr "Pollster Code"
+
+#. module: family
+#: view:family.group.member:0
+#: field:family.group.member,member_marital_status:0
+msgid "Marital Status"
+msgstr "Marital Status"
+
+#. module: family
+#: sql_constraint:family.group:0
+msgid "This Folios already exist on the table!"
+msgstr "This Folios already exist on the table!"
+
+#. module: family
+#: field:family.group.member,member_rut:0
+msgid "RUT"
+msgstr "RUT"
+
+#. module: family
+#: view:family.group:0
+msgid "Family Health Description"
+msgstr "Family Health Description"
+
+#. module: family
+#: view:family.group:0
+msgid "Localization and File Management"
+msgstr "Localization and File Management"
+
+#. module: family
+#: field:family.group.member,member_activity:0
+msgid "Current Activity"
+msgstr "Current Activity"
+
+#. module: family
+#: field:family.group.member,member_administrative_pension:0
+msgid "Administrative Pension"
+msgstr "Administrative Pension"
+
+#. module: family
+#: view:family.group.member:0
+#: field:family.group.member,member_observations:0
+msgid "Observations"
+msgstr "Observations"
+
+#. module: family
+#: field:family.group.member,member_S5c:0
+msgid "S5c"
+msgstr "S5c"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "Primary School Complete"
+msgstr "Primary School Complete"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "5 Primary School"
+msgstr "5 Primary School"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "Iliterate"
+msgstr "Iliterate"
+
+#. module: family
+#: field:family.group,family_neighborhood_unit:0
+msgid "Neighborhood Unit"
+msgstr "Neighborhood Unit"
+
+#. module: family
+#: field:family.group.member,member_S5a:0
+msgid "S5a"
+msgstr "S5a"
+
+#. module: family
+#: view:family.group:0
+msgid "Family Income Description"
+msgstr "Family Income Description"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "College Complete"
+msgstr "College Complete"
+
+#. module: family
+#: view:family.group:0
+msgid "Family Form"
+msgstr "Family Form"
+
+#. module: family
+#: field:family.group.member,member_couple:0
+msgid "Couple"
+msgstr "Couple"
+
+#. module: family
+#: field:family.group.member,member_I2:0
+msgid "I2"
+msgstr "I2"
+
+#. module: family
+#: field:family.group,family_dwelling_code:0
+msgid "Dwelling Code"
+msgstr "Dwelling Code"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Their Son/Daughter"
+msgstr "Their Son/Daughter"
+
+#. module: family
+#: selection:family.group.member,member_suf:0
+msgid "No es Causante de SUF"
+msgstr "No es Causante de SUF"
+
+#. module: family
+#: field:family.group.member,member_nationality:0
+msgid "Nationality"
+msgstr "Nationality"
+
+#. module: family
+#: view:family.group.member:0
+msgid "List of Family Members"
+msgstr "List of Family Members"
+
+#. module: family
+#: view:family.group:0
+#: field:family.group,family_description:0
+msgid "Family Description"
+msgstr "Family Description"
+
+#. module: family
+#: field:family.group.member,member_pension:0
+msgid "Pension Assistance"
+msgstr "Pension Assistance"
+
+#. module: family
+#: field:family.group.member,member_phone:0
+msgid "Phone Number"
+msgstr "Phone Number"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Not Relative"
+msgstr "Not Relative"
+
+#. module: family
+#: selection:family.group.member,member_suf:0
+msgid "Causante de SUF"
+msgstr "Causante de SUF"
+
+#. module: family
+#: field:family.group.member,member_gender:0
+msgid "Gender"
+msgstr "Gender"
+
+#. module: family
+#: field:family.group.member,member_health_insurance:0
+msgid "Health Insurance"
+msgstr "Health Insurance"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "College Uncomplete"
+msgstr "College Uncomplete"
+
+#. module: family
+#: field:family.group,family_score:0
+msgid "Beneficiary Score"
+msgstr "Beneficiary Score"
+
+#. module: family
+#: view:family.group.member:0
+msgid "FPS"
+msgstr "FPS"
+
+#. module: family
+#: field:family.group.member,member_O10g:0
+msgid "O10g"
+msgstr "O10g"
+
+#. module: family
+#: view:family.group.member:0
+#: field:family.group.member,member_kinship:0
+msgid "Kinship"
+msgstr "Kinship"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "Primary School Uncomplete"
+msgstr "Primary School Uncomplete"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "4 High School"
+msgstr "4 High School"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Son-in-law or daughter-in-law"
+msgstr "Son-in-law or daughter-in-law"
+
+#. module: family
+#: field:family.group,family_sector:0
+msgid "Name of Camp Name, Town, Village, or other indigenous community"
+msgstr "Name of Camp Name, Town, Village, or other indigenous community"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "1 Primary School"
+msgstr "1 Primary School"
+
+#. module: family
+#: field:family.group.member,member_I1:0
+msgid "I1"
+msgstr "I1"
+
+#. module: family
+#: selection:family.group.member,member_marital_status:0
+msgid "Single"
+msgstr "Single"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Great-Grandson or Great-Granddaughter"
+msgstr "Great-Grandson or Great-Granddaughter"
+
+#. module: family
+#: field:family.group.member,member_reasons_outsleeping:0
+msgid "Reasons of why Sleeps Outside"
+msgstr "Reasons of why Sleeps Outside"
+
+#. module: family
+#: field:family.group.member,member_I3:0
+msgid "I3"
+msgstr "I3"
+
+#. module: family
+#: field:family.group,family_code_housing_gr:0
+msgid "ID of Housing Group"
+msgstr "ID of Housing Group"
+

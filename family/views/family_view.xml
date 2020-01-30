@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		<!--
+		*
+		*	ROOT MENU CASEWORKER
+		*
+		-->
+
+		<!-- we define the family group form -->
+		<record model="ir.ui.view" id="family_form">
+			<field name="name">family.group.form</field>
+			<field name="model">family.group</field>
+			<field name="arch" type="xml">
+				<form string="Family Form">
+					<sheet>
+						<group>
+							<field name="family_folio"/>
+						</group>
+
+						<notebook>
+							<page string="Localization and File Management">
+								<group string="Localization">
+									<group col="1">
+											<field name="family_sector"/>
+											<field name="family_commune_id"/>
+											<field name="family_zone"/>
+											<field name="family_neighborhood_unit"/>
+											<field name="family_score"/>
+										</group>
+
+										<group>
+											<field name="family_type_housing_gr"/>
+											<field name="family_code_housing_gr"/>
+											<field name="family_apple_code"/>
+											<field name="family_street_code"/>
+										</group>
+									<!--aqui-->
+
+									<group>
+										<field name="family_street_name"/>
+											<field name="family_address_number"/>
+											<field name="family_block"/>
+											<field name="family_department_site"/>
+											<field name="family_dwelling_code"/>
+										</group>
+
+										<group>
+											<label for="family_references" string="Family References" colspan="4"/>
+											<field name="family_references" colspan="4" nolabel="1"/>
+										</group>
+									<!--aqui-->
+									<!--<group>
+										<group string="Statement Qualified Informant">
+											<field name="family_informant"/>
+											<separator string="Last Update" colspan="4"/>
+											<field name="family_last_update_date"/>
+											<field name="family_last_update_pollster_code"/>
+										</group>
+										<group string="File Management">
+											<group>
+												<field name="family_pollster_code"/>
+												<field name="family_application_date"/>
+												<field name="family_score_date"/>
+											</group>
+											<group>
+												<field name="family_supervisor_code"/>
+												<field name="family_supervision_date"/>
+											</group>
+											<group>
+												<field name="family_inspector_code"/>
+												<field name="family_review_date"/>
+											</group>
+										</group>
+									</group>-->
+								</group>
+							</page>
+
+							<page string="Dwelling Details">
+								<group colspan="2">
+									<group>
+										<field name="family_site_ownership"/>
+										<field name="family_dwelling_ownership"/>
+										<field name="family_dwelling_principal"/>
+									</group>
+
+									<group>
+										<field name="family_dwelling_water_source"/>
+										<field name="family_dwelling_water_distribution"/>
+										<field name="family_dwelling_excretion_system"/>
+										<field name="family_dwelling_bathroom"/>
+									</group>
+
+									<group>
+										<field name="family_dwelling_rooms"/>
+										<field name="family_dwelling_people_number_nonincluded"/>
+									</group>
+								</group>
+
+								<group col="1">
+									<label for="family_dwelling" string="Family Dwelling Description"/>
+									<field name="family_dwelling" nolabel="1"/>
+								</group>
+							</page>
+
+							<page string="Family Group Identification">
+								<group col="1">
+									<separator string="Family Group"/>
+									<br/>
+									<field name="family_members" nolabel="1"/>
+								</group>
+
+								<group col="4">
+									<field name="family_decile"/>
+									<field name="family_quintile"/>
+									<field name="family_people_folio"/>
+								</group>
+								<group col="1">
+									<separator string="Family Health Description"/>
+									<field name="family_health" nolabel="1"/>
+									<separator string="Family Description"/>
+									<field name="family_description" nolabel="1"/>
+									<separator string="Family Income Description"/>
+									<field name="family_income_description" nolabel="1"/>
+								</group>
+							</page>
+
+						</notebook>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<!-- we define the family group tree -->
+		<record model="ir.ui.view" id="family_tree">
+			<field name="name">family.group.tree</field>
+			<field name="model">family.group</field>
+			<field name="arch" type="xml">
+				<tree string="Family Tree">
+					<field name="family_folio"/>
+					<field name="family_sector"/>
+					<field name="family_coord"/>
+					<field name="family_score"/>
+				</tree>
+			</field>
+		</record>
+
+		<!-- Family group Filter -->
+		<record id="view_family_group_filter" model="ir.ui.view">
+			<field name="name">family.group.filter</field>
+			<field name="model">family.group</field>
+			<field name="arch" type="xml">
+				<search string="Family Group Searching">
+					<group col="2" colspan="2">
+						<field name="family_folio"/>
+						<field name="family_sector"/>
+						<field name="family_coord"/>
+						<field name="family_score"/>
+					</group>
+					<newline/>
+					<group expand="0" string="Group By" colspan="4" col="8">
+						<filter name="family_sector" string="Sector"  domain="[]"
+							context="{'group_by':'family_sector'}"/>
+					</group>
+				</search>
+			</field>
+		</record>
+
+		<!-- We define a family group action -->
+	 	<record model="ir.actions.act_window" id="action_family_group">
+			<field name="name">Family Group</field>
+			<field name="res_model">family.group</field>
+			<field name="view_mode">tree,form</field>
+			<field name="search_view_id" ref="view_family_group_filter"/>
+		</record>
+
+		
+		<menuitem id="family_group_action_menu" action="action_family_group" 
+			parent="menu_family_group" name="Family Group"  sequence="11"/>
+		<!--
+		*
+		*	FAMILY MEMBERS
+		*
+		-->
+
+		<!-- we define the member of the family form -->
+		<record model="ir.ui.view" id="member_form">
+			<field name="name">family.group.member.form</field>
+			<field name="model">family.group.member</field>
+			<field name="arch" type="xml">
+				<form string="Family Member Form">
+					<sheet>
+						<group colspan="6" col="5">
+							<separator string="General Data" colspan="5"/>
+							<field name="member_folio"/>
+							<field name="member_rut"/>
+							<field name="member_full_name"/>
+							<field name="member_date_birth"/>
+							<field name="member_age"/>
+							<notebook colspan="8">
+								<page string="FPS">
+									<group col="6" colspan="6">
+										<field name="member_gender"/>
+										<field name="member_nationality"/>
+										<field name="member_order"/>
+										<field name="member_head"/>
+										<field name="member_kinship"/>
+										<field name="member_couple"/>
+										<field name="member_date_of_death"/>
+									</group>
+									<group col="8" colspan="8">
+										<field name="member_I1"/>
+										<field name="member_I2"/>
+										<field name="member_I3"/>
+									</group>
+									<group col="8" colspan="8">
+										<group col="8" colspan="8">
+											<separator string="Travel times to the emergency and transportation" colspan="8"/>
+											<field name="member_hours"/>
+											<field name="member_mins"/>
+											<field name="member_transport"/>
+										</group>
+										<group col="8" colspan="8">
+											<separator string="Health" colspan="8"/>
+											<field name="member_S1"/>
+											<field name="member_S2"/>
+											<field name="member_S3"/>
+											<field name="member_S4"/>
+											<field name="member_S5a"/>
+											<field name="member_S5b"/>
+											<field name="member_S5c"/>
+											<field name="member_S5d"/>
+											<field name="member_S5e"/>
+											<field name="member_S5f"/>
+											<field name="member_S6"/>
+											<field name="member_S7"/>
+											<field name="member_S8a"/>
+											<field name="member_S8b"/>
+											<field name="member_S8c"/>
+											<field name="member_S8d"/>
+											<field name="member_S8e"/>
+										</group>
+									</group>
+									<group col="8" colspan="8">
+										<separator string="Education" colspan="8"/>
+										<field name="member_E1" string="1ro Medio"/>
+										<field name="member_E2" string="2do Medio"/>
+										<field name="member_E3" string="3ro Medio"/>
+										<field name="member_E4" string="4to Medio"/>
+									</group>
+									<group col="8" colspan="8">
+										<separator string="Ocupation" colspan="8"/>
+										<field name="member_O1"/>
+										<field name="member_O2"/>
+										<field name="member_O3"/>
+										<field name="member_O4"/>
+										<field name="member_O5"/>
+										<field name="member_O6"/>
+										<field name="member_O7"/>
+										<field name="member_O8"/>
+										<field name="member_O9"/>
+										<field name="member_O10a"/>
+										<field name="member_O10b"/>
+										<field name="member_O10c"/>
+										<field name="member_O10d"/>
+										<field name="member_O10e"/>
+										<field name="member_O10f"/>
+										<field name="member_O10g"/>
+										<field name="member_O11a"/>
+										<field name="member_O11b"/>
+										<field name="member_O11c"/>
+										<field name="member_O11d"/>
+										<field name="member_O11e"/>
+										<field name="member_O11f"/>
+										<field name="member_O11g"/>
+										<field name="member_O12"/>
+									</group>
+									<group col="8" colspan="8">
+										<separator string="Incoming" colspan="8"/>
+										<field name="member_anual_income_working"/>
+										<field name="member_retirement_pension"/>
+										<field name="member_other_incomes"/>
+										<field name="member_administrative_pension"/>
+									</group>
+								</page>
+								<page string="Social Help File">
+									<group colspan="4" col="4">
+										<field name="member_phone"/>
+										<field name="member_marital_status"/>
+										<field name="member_schooling"/>
+										<field name="member_activity"/>
+										<field name="member_income"/>
+										<field name="member_health_insurance"/>
+										<field name="member_pension"/>
+										<field name="member_suf"/>
+									</group>
+									<group colspan="6" col="6">
+										<group colspan="3" col="3">
+											<separator string="Situation and Professional Evaluation" colspan="3"/>
+											<field name="member_situation_eva" nolabel="1" colspan="3"/>
+										</group>
+									</group>
+									<group colspan="6" col="6">
+										<separator string="Observations" colspan="6"/>
+										<field name="member_observations" nolabel="1" colspan="6"/>
+									</group>
+								</page>
+							</notebook>
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<!-- we define the member of the family tree -->
+		<record model="ir.ui.view" id="member_tree">
+			<field name="name">family.group.member.tree</field>
+			<field name="model">family.group.member</field>
+			<field name="arch" type="xml">
+				<tree string="List of Family Members">
+					<field name="member_folio"/>
+					<field name="member_order"/>
+					<field name="member_rut"/>
+					<field name="member_full_name"/>
+					<field name="member_kinship"/>
+					<field name="member_marital_status"/>
+					<field name="member_schooling"/>
+					<field name="member_activity"/>
+					<field name="member_health_insurance"/>
+					<field name="member_suf"/>
+					<field name="member_pension"/>
+				</tree>
+			</field>
+		</record>
+
+		<record id="view_family_group_member_filter" model="ir.ui.view">
+			<field name="name">family.group.member.filter</field>
+			<field name="model">family.group.member</field>
+			<field name="arch" type="xml">
+				<search string="Family Group Member Searching">
+					<group col="2" colspan="2">
+						<field name="member_rut"/>
+						<field name="member_full_name"/>
+						<field name="member_kinship"/>
+						<field name="member_folio"/>
+					</group>
+					<newline/>
+					<group expand="0" string="Group By" colspan="4" col="8" groups="base.group_extended">
+						<filter name="member_folio" string="Unic National Folio" icon="terp-personal" domain="[]" context="{'group_by':'member_folio'}"/>
+						<filter name="member_kinship" string="Kinship" icon="terp-personal" domain="[]" context="{'group_by':'member_kinship'}"/>
+						<filter name="member_marital_status" string="Marital Status" icon="terp-stock_effects-object-colorize" domain="[]"
+							context="{'group_by':'member_marital_status'}"/>
+					</group>
+				</search>
+			</field>
+		</record>
+
+
+		<!-- we define the member of the family action -->
+		<record model="ir.actions.act_window" id="action_family_group_member">
+			<field name="name">Family Group Members</field>
+			<field name="res_model">family.group.member</field>
+			<field name="view_mode">tree,form</field>
+			<field name="search_view_id" ref="view_family_group_member_filter"/>
+		</record>
+
+		<menuitem id="family_group_member_menu" action="action_family_group_member" parent="menu_family_group"				 name="Family Group Members"  sequence="12"/>
+
+</odoo>

@@ -1,0 +1,1892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="1">
+		<!-- Sectors -->
+		<record id="sector_0" model="sector">
+			<field name="name">Andres Caniullan</field>
+			<field name="code">9105001</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_1" model="sector">
+			<field name="name">Andres Coliqueo</field>
+			<field name="code">9105002</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_2" model="sector">
+			<field name="name">Antonio Catrifol</field>
+			<field name="code">9105003</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_3" model="sector">
+			<field name="name">Antonio Curilen</field>
+			<field name="code">9105004</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_4" model="sector">
+			<field name="name">Antonio Lepian</field>
+			<field name="code">9105005</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_5" model="sector">
+			<field name="name">Antonio Cotaro</field>
+			<field name="code">9105006</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_6" model="sector">
+			<field name="name">Antonio Gueñir</field>
+			<field name="code">9105007</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_7" model="sector">
+			<field name="name">Adrian Cayunao</field>
+			<field name="code">9105008</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_8" model="sector">
+			<field name="name">Alhue</field>
+			<field name="code">9105009</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_9" model="sector">
+			<field name="name">Antilef</field>
+			<field name="code">9105010</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_10" model="sector">
+			<field name="name">Allilef</field>
+			<field name="code">9105011</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_11" model="sector">
+			<field name="name">Bartolo Quintulem</field>
+			<field name="code">9105012</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_12" model="sector">
+			<field name="name">Caritun Ñanco</field>
+			<field name="code">9105013</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_13" model="sector">
+			<field name="name">Carriman Sanchez</field>
+			<field name="code">9105014</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_14" model="sector">
+			<field name="name">Cayupi Calfuman</field>
+			<field name="code">9105015</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_15" model="sector">
+			<field name="name">Curihuinca Vidal</field>
+			<field name="code">9105016</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_16" model="sector">
+			<field name="name">Calfín Paillan</field>
+			<field name="code">9105017</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_17" model="sector">
+			<field name="name">Catrifol</field>
+			<field name="code">9105018</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_18" model="sector">
+			<field name="name">Carilingue</field>
+			<field name="code">9105019</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_19" model="sector">
+			<field name="name">Conalef</field>
+			<field name="code">9105020</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_20" model="sector">
+			<field name="name">Domingo Catricura</field>
+			<field name="code">9105021</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_21" model="sector">
+			<field name="name">Domingo Calfulaf</field>
+			<field name="code">9105022</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_22" model="sector">
+			<field name="name">Dumihual</field>
+			<field name="code">9105023</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_23" model="sector">
+			<field name="name">Epuñan</field>
+			<field name="code">9105024</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_24" model="sector">
+			<field name="name">Felipe Quilaqueo</field>
+			<field name="code">9105025</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_25" model="sector">
+			<field name="name">Fernando Catrian</field>
+			<field name="code">9105026</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_26" model="sector">
+			<field name="name">Federico Alcaman</field>
+			<field name="code">9105027</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_27" model="sector">
+			<field name="name">Fernando Hueche</field>
+			<field name="code">9105028</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_28" model="sector">
+			<field name="name">Francisco Calfuñir</field>
+			<field name="code">9105029</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_29" model="sector">
+			<field name="name">Francisco Huenchu</field>
+			<field name="code">9105030</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_30" model="sector">
+			<field name="name">Francisco Lincoñir</field>
+			<field name="code">9105031</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_31" model="sector">
+			<field name="name">Francisco Curamil</field>
+			<field name="code">9105032</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_32" model="sector">
+			<field name="name">Francisco Huentro</field>
+			<field name="code">9105033</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_33" model="sector">
+			<field name="name">Huenchu Rupallan</field>
+			<field name="code">9105034</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_34" model="sector">
+			<field name="name">Huinca Chodiman</field>
+			<field name="code">9105035</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_35" model="sector">
+			<field name="name">Huenchual</field>
+			<field name="code">9105036</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_36" model="sector">
+			<field name="name">Huinca Romero</field>
+			<field name="code">9105037</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_37" model="sector">
+			<field name="name">Huaiquimilla</field>
+			<field name="code">9105038</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_38" model="sector">
+			<field name="name">Ignacio Manuel</field>
+			<field name="code">9105039</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_39" model="sector">
+			<field name="name">Ignacio Ñanculaf</field>
+			<field name="code">9105040</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_40" model="sector">
+			<field name="name">Ignacio Moreno</field>
+			<field name="code">9105041</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_41" model="sector">
+			<field name="name">Juan Levicura</field>
+			<field name="code">9105042</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_42" model="sector">
+			<field name="name">Juan Calderón</field>
+			<field name="code">9105043</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_43" model="sector">
+			<field name="name">José Aillañir</field>
+			<field name="code">9105044</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_44" model="sector">
+			<field name="name">José Carvajal</field>
+			<field name="code">9105045</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_45" model="sector">
+			<field name="name">José Catrín</field>
+			<field name="code">9105046</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_46" model="sector">
+			<field name="name">José Saavedra</field>
+			<field name="code">9105047</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_47" model="sector">
+			<field name="name">Juan A. Manquilef</field>
+			<field name="code">9105048</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_48" model="sector">
+			<field name="name">Juan Aillapi</field>
+			<field name="code">9105049</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_49" model="sector">
+			<field name="name">Juan Antiman</field>
+			<field name="code">9105050</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_50" model="sector">
+			<field name="name">Juan Calfuman</field>
+			<field name="code">9105051</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_51" model="sector">
+			<field name="name">Juan Canio</field>
+			<field name="code">9105052</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_52" model="sector">
+			<field name="name">Juan Flores</field>
+			<field name="code">9105053</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_53" model="sector">
+			<field name="name">Juan Hueche</field>
+			<field name="code">9105054</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_54" model="sector">
+			<field name="name">Juan Huinca</field>
+			<field name="code">9105055</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_55" model="sector">
+			<field name="name">Juan Lincoleo</field>
+			<field name="code">9105056</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_56" model="sector">
+			<field name="name">Juan LLanquileo</field>
+			<field name="code">9105057</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_57" model="sector">
+			<field name="name">Juan Rañileo</field>
+			<field name="code">9105058</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_58" model="sector">
+			<field name="name">José Luis Cariman</field>
+			<field name="code">9105059</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_59" model="sector">
+			<field name="name">Juan Huanquitripay</field>
+			<field name="code">9105060</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_60" model="sector">
+			<field name="name">Juan Huenchumil</field>
+			<field name="code">9105061</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_61" model="sector">
+			<field name="name">Juan Painemil</field>
+			<field name="code">9105062</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_62" model="sector">
+			<field name="name">Juan Rayín</field>
+			<field name="code">9105063</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_63" model="sector">
+			<field name="name">Juancito Cayulaf</field>
+			<field name="code">9105064</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_64" model="sector">
+			<field name="name">José Millafil</field>
+			<field name="code">9105065</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_65" model="sector">
+			<field name="name">Juan Ayelef</field>
+			<field name="code">9105066</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_66" model="sector">
+			<field name="name">Juan José Iturra</field>
+			<field name="code">9105067</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_67" model="sector">
+			<field name="name">Juan San Juan</field>
+			<field name="code">9105068</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_68" model="sector">
+			<field name="name">Luis Rañileo</field>
+			<field name="code">9105069</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_69" model="sector">
+			<field name="name">Lefitrai Viuda de A.</field>
+			<field name="code">9105070</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_70" model="sector">
+			<field name="name">LLangao</field>
+			<field name="code">9105071</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_71" model="sector">
+			<field name="name">LLanquileo</field>
+			<field name="code">9105072</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_72" model="sector">
+			<field name="name">Millahueque</field>
+			<field name="code">9105073</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_73" model="sector">
+			<field name="name">Millaleo</field>
+			<field name="code">9105074</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_74" model="sector">
+			<field name="name">Manuel Millanao</field>
+			<field name="code">9105075</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_75" model="sector">
+			<field name="name">Millapan Romero</field>
+			<field name="code">9105076</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_76" model="sector">
+			<field name="name">Manuel Huiliqueo</field>
+			<field name="code">9105077</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_77" model="sector">
+			<field name="name">Manquein</field>
+			<field name="code">9105078</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_78" model="sector">
+			<field name="name">Martín Curihuinca</field>
+			<field name="code">9105079</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_79" model="sector">
+			<field name="name">Millache</field>
+			<field name="code">9105080</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_80" model="sector">
+			<field name="name">Nahuelhual</field>
+			<field name="code">9105081</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_81" model="sector">
+			<field name="name">Pascual Temo</field>
+			<field name="code">9105082</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_82" model="sector">
+			<field name="name">Pedro Antil</field>
+			<field name="code">9105083</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_83" model="sector">
+			<field name="name">Pedro Melín</field>
+			<field name="code">9105084</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_84" model="sector">
+			<field name="name">Pehuenche Jaramillo</field>
+			<field name="code">9105085</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_85" model="sector">
+			<field name="name">Peralta Lienqueo</field>
+			<field name="code">9105086</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_86" model="sector">
+			<field name="name">Pillañir</field>
+			<field name="code">9105087</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_87" model="sector">
+			<field name="name">Pascual Calfuñir</field>
+			<field name="code">9105088</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_88" model="sector">
+			<field name="name">Painemil Huenchual</field>
+			<field name="code">9105089</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_89" model="sector">
+			<field name="name">Quetrahue</field>
+			<field name="code">9105090</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_90" model="sector">
+			<field name="name">Quilaqueo</field>
+			<field name="code">9105091</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_91" model="sector">
+			<field name="name">Quinchao Calderón</field>
+			<field name="code">9105092</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_92" model="sector">
+			<field name="name">Ramón Tromilen</field>
+			<field name="code">9105093</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_93" model="sector">
+			<field name="name">Ricardo Rayín</field>
+			<field name="code">9105094</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_94" model="sector">
+			<field name="name">Santiago Coñoeman</field>
+			<field name="code">9105095</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_95" model="sector">
+			<field name="name">Sargento Ancamil</field>
+			<field name="code">9105096</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_96" model="sector">
+			<field name="name">Santiago Manqueo</field>
+			<field name="code">9105097</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_97" model="sector">
+			<field name="name">Santa Juana</field>
+			<field name="code">9105098</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_98" model="sector">
+			<field name="name">Sollinco</field>
+			<field name="code">9105099</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_99" model="sector">
+			<field name="name">Tihuallo</field>
+			<field name="code">9105100</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_100" model="sector">
+			<field name="name">Traitraico Coipué</field>
+			<field name="code">9105101</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_101" model="sector">
+			<field name="name">Zanja</field>
+			<field name="code">9105102</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_102" model="sector">
+			<field name="name">Allipen</field>
+			<field name="code">9105103</field>
+			<field name="sector_type">CS</field>
+		</record>
+		<record id="sector_103" model="sector">
+			<field name="name">Construcción</field>
+			<field name="code">9105104</field>
+			<field name="sector_type">CS</field>
+		</record>
+		<record id="sector_104" model="sector">
+			<field name="name">Condominio Huichahu</field>
+			<field name="code">9105105</field>
+			<field name="sector_type">CS</field>
+		</record>
+		<record id="sector_105" model="sector">
+			<field name="name">Coipué Balsadero</field>
+			<field name="code">9105106</field>
+			<field name="sector_type">CS</field>
+		</record>
+		<record id="sector_106" model="sector">
+			<field name="name">Recinto Vialidad</field>
+			<field name="code">9105107</field>
+			<field name="sector_type">CS</field>
+		</record>
+		<record id="sector_107" model="sector">
+			<field name="name">Arauco</field>
+			<field name="code">9105108</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_108" model="sector">
+			<field name="name">Arizona</field>
+			<field name="code">9105109</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_109" model="sector">
+			<field name="name">Chucauco</field>
+			<field name="code">9105110</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_110" model="sector">
+			<field name="name">Chorrillos</field>
+			<field name="code">9105111</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_111" model="sector">
+			<field name="name">Campamento</field>
+			<field name="code">9105112</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_112" model="sector">
+			<field name="name">El Copihue</field>
+			<field name="code">9105113</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_113" model="sector">
+			<field name="name">El Notro</field>
+			<field name="code">9105114</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_114" model="sector">
+			<field name="name">El Porvenir</field>
+			<field name="code">9105115</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_115" model="sector">
+			<field name="name">El Roble</field>
+			<field name="code">9105116</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_116" model="sector">
+			<field name="name">El Cantaro</field>
+			<field name="code">9105117</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_117" model="sector">
+			<field name="name">El Guindal</field>
+			<field name="code">9105118</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_118" model="sector">
+			<field name="name">El Martillo</field>
+			<field name="code">9105119</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_119" model="sector">
+			<field name="name">El Nudo</field>
+			<field name="code">9105120</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_120" model="sector">
+			<field name="name">El Parque</field>
+			<field name="code">9105121</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_121" model="sector">
+			<field name="name">El Prado</field>
+			<field name="code">9105122</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_122" model="sector">
+			<field name="name">El Solar</field>
+			<field name="code">9105123</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_123" model="sector">
+			<field name="name">El Aromo</field>
+			<field name="code">9105124</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_124" model="sector">
+			<field name="name">El Carmen</field>
+			<field name="code">9105125</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_125" model="sector">
+			<field name="name">El Encanto</field>
+			<field name="code">9105126</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_126" model="sector">
+			<field name="name">El Retiro</field>
+			<field name="code">9105127</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_127" model="sector">
+			<field name="name">El Palenque</field>
+			<field name="code">9105128</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_128" model="sector">
+			<field name="name">El Sol</field>
+			<field name="code">9105129</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_129" model="sector">
+			<field name="name">Forestal Huichahue</field>
+			<field name="code">9105130</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_130" model="sector">
+			<field name="name">Gemita</field>
+			<field name="code">9105131</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_131" model="sector">
+			<field name="name">Huaiomin</field>
+			<field name="code">9105132</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_132" model="sector">
+			<field name="name">Huale</field>
+			<field name="code">9105133</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_133" model="sector">
+			<field name="name">Huenchun</field>
+			<field name="code">9105134</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_134" model="sector">
+			<field name="name">Haras la Campana</field>
+			<field name="code">9105135</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_135" model="sector">
+			<field name="name">Huichahue</field>
+			<field name="code">9105136</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_136" model="sector">
+			<field name="name">Huilquilco</field>
+			<field name="code">9105137</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_137" model="sector">
+			<field name="name">La Estrella</field>
+			<field name="code">9105138</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_138" model="sector">
+			<field name="name">Las Rosas</field>
+			<field name="code">9105139</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_139" model="sector">
+			<field name="name">Lolen</field>
+			<field name="code">9105140</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_140" model="sector">
+			<field name="name">Lolenco</field>
+			<field name="code">9105141</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_141" model="sector">
+			<field name="name">Los Yugos</field>
+			<field name="code">9105142</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_142" model="sector">
+			<field name="name">La Esperanza</field>
+			<field name="code">9105143</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_143" model="sector">
+			<field name="name">La Frontera</field>
+			<field name="code">9105144</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_144" model="sector">
+			<field name="name">La Lechería</field>
+			<field name="code">9105145</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_145" model="sector">
+			<field name="name">La Reserva</field>
+			<field name="code">9105146</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_146" model="sector">
+			<field name="name">La Selva</field>
+			<field name="code">9105147</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_147" model="sector">
+			<field name="name">Las Quemas</field>
+			<field name="code">9105148</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_148" model="sector">
+			<field name="name">Las Torcazas</field>
+			<field name="code">9105149</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_149" model="sector">
+			<field name="name">La Colonia</field>
+			<field name="code">9105150</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_150" model="sector">
+			<field name="name">La Frontera</field>
+			<field name="code">9105151</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_151" model="sector">
+			<field name="name">La Pampa</field>
+			<field name="code">9105152</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_152" model="sector">
+			<field name="name">La Punta</field>
+			<field name="code">9105153</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_153" model="sector">
+			<field name="name">Las Dalias</field>
+			<field name="code">9105154</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_154" model="sector">
+			<field name="name">Las Nieves</field>
+			<field name="code">9105155</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_155" model="sector">
+			<field name="name">Las Vertientes</field>
+			<field name="code">9105156</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_156" model="sector">
+			<field name="name">Las Violetas</field>
+			<field name="code">9105157</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_157" model="sector">
+			<field name="name">Los Cabros</field>
+			<field name="code">9105158</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_158" model="sector">
+			<field name="name">Los Canelos</field>
+			<field name="code">9105159</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_159" model="sector">
+			<field name="name">Los Eucaliptus</field>
+			<field name="code">9105160</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_160" model="sector">
+			<field name="name">Los Notros</field>
+			<field name="code">9105161</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_161" model="sector">
+			<field name="name">Los Prados</field>
+			<field name="code">9105162</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_162" model="sector">
+			<field name="name">Los Retazos</field>
+			<field name="code">9105163</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_163" model="sector">
+			<field name="name">La Cabaña</field>
+			<field name="code">9105164</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_164" model="sector">
+			<field name="name">La Quinta</field>
+			<field name="code">9105165</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_165" model="sector">
+			<field name="name">Las Camelias</field>
+			<field name="code">9105166</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_166" model="sector">
+			<field name="name">Long Long</field>
+			<field name="code">9105167</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_167" model="sector">
+			<field name="name">Los Boldos</field>
+			<field name="code">9105168</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_168" model="sector">
+			<field name="name">Mar Rojo</field>
+			<field name="code">9105169</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_169" model="sector">
+			<field name="name">Mapulay</field>
+			<field name="code">9105170</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_170" model="sector">
+			<field name="name">Maquehue</field>
+			<field name="code">9105171</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_171" model="sector">
+			<field name="name">Manzanar</field>
+			<field name="code">9105172</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_172" model="sector">
+			<field name="name">María Luisa</field>
+			<field name="code">9105173</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_173" model="sector">
+			<field name="name">Miraflores</field>
+			<field name="code">9105174</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_174" model="sector">
+			<field name="name">Maile</field>
+			<field name="code">9105175</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_175" model="sector">
+			<field name="name">Millai</field>
+			<field name="code">9105176</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_176" model="sector">
+			<field name="name">Montecarlo</field>
+			<field name="code">9105177</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_177" model="sector">
+			<field name="name">Nilahue</field>
+			<field name="code">9105178</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_178" model="sector">
+			<field name="name">Pelales</field>
+			<field name="code">9105179</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_179" model="sector">
+			<field name="name">Pillanco</field>
+			<field name="code">9105180</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_180" model="sector">
+			<field name="name">Porvenir</field>
+			<field name="code">9105181</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_181" model="sector">
+			<field name="name">Pichi Pillan</field>
+			<field name="code">9105182</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_182" model="sector">
+			<field name="name">Rinconada</field>
+			<field name="code">9105183</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_183" model="sector">
+			<field name="name">San Agustín</field>
+			<field name="code">9105184</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_184" model="sector">
+			<field name="name">San Carlos</field>
+			<field name="code">9105185</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_185" model="sector">
+			<field name="name">San Guillermo</field>
+			<field name="code">9105186</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_186" model="sector">
+			<field name="name">San Juan</field>
+			<field name="code">9105187</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_187" model="sector">
+			<field name="name">San Luis</field>
+			<field name="code">9105188</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_188" model="sector">
+			<field name="name">Santa Ana</field>
+			<field name="code">9105189</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_189" model="sector">
+			<field name="name">Santa Cecilia</field>
+			<field name="code">9105190</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_190" model="sector">
+			<field name="name">San Antonio</field>
+			<field name="code">9105191</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_191" model="sector">
+			<field name="name">San Carlo</field>
+			<field name="code">9105192</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_192" model="sector">
+			<field name="name">Santa Carolina</field>
+			<field name="code">9105193</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_193" model="sector">
+			<field name="name">Santa Elisa</field>
+			<field name="code">9105194</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_194" model="sector">
+			<field name="name">Santa Georgina</field>
+			<field name="code">9105195</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_195" model="sector">
+			<field name="name">Santa Trinidad</field>
+			<field name="code">9105196</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_196" model="sector">
+			<field name="name">San José</field>
+			<field name="code">9105197</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_197" model="sector">
+			<field name="name">San Luis</field>
+			<field name="code">9105198</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_198" model="sector">
+			<field name="name">Santa Angela</field>
+			<field name="code">9105199</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_199" model="sector">
+			<field name="name">Santa Gayetana</field>
+			<field name="code">9105200</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_200" model="sector">
+			<field name="name">Salas y Salas</field>
+			<field name="code">9105201</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_201" model="sector">
+			<field name="name">San Antonio</field>
+			<field name="code">9105202</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_202" model="sector">
+			<field name="name">San Francisco</field>
+			<field name="code">9105203</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_203" model="sector">
+			<field name="name">San Pedro</field>
+			<field name="code">9105204</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_204" model="sector">
+			<field name="name">San Sebastian</field>
+			<field name="code">9105205</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_205" model="sector">
+			<field name="name">Santa Eugenia</field>
+			<field name="code">9105206</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_206" model="sector">
+			<field name="name">Suevia</field>
+			<field name="code">9105207</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_207" model="sector">
+			<field name="name">San Agustín</field>
+			<field name="code">9105208</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_208" model="sector">
+			<field name="name">Santa Celia</field>
+			<field name="code">9105209</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_209" model="sector">
+			<field name="name">Santa Elena</field>
+			<field name="code">9105210</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_210" model="sector">
+			<field name="name">Tricauco</field>
+			<field name="code">9105211</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_211" model="sector">
+			<field name="name">Tumuntuco</field>
+			<field name="code">9105212</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_212" model="sector">
+			<field name="name">Tres María</field>
+			<field name="code">9105213</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_213" model="sector">
+			<field name="name">Yolanda</field>
+			<field name="code">9105214</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_214" model="sector">
+			<field name="name">Aguas Buenas</field>
+			<field name="code">9105215</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_215" model="sector">
+			<field name="name">Allipen</field>
+			<field name="code">9105216</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_216" model="sector">
+			<field name="name">Avieselgue</field>
+			<field name="code">9105217</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_217" model="sector">
+			<field name="name">Bellavista</field>
+			<field name="code">9105218</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_218" model="sector">
+			<field name="name">Chorillos</field>
+			<field name="code">9105219</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_219" model="sector">
+			<field name="name">Chanco</field>
+			<field name="code">9105220</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_220" model="sector">
+			<field name="name">Coipué Alto</field>
+			<field name="code">9105221</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_221" model="sector">
+			<field name="name">Coipué Viejo</field>
+			<field name="code">9105222</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_222" model="sector">
+			<field name="name">El Roble</field>
+			<field name="code">9105223</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_223" model="sector">
+			<field name="name">El Radal</field>
+			<field name="code">9105224</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_224" model="sector">
+			<field name="name">El Colmenar</field>
+			<field name="code">9105225</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_225" model="sector">
+			<field name="name">El Diuco</field>
+			<field name="code">9105226</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_226" model="sector">
+			<field name="name">El Porvenir</field>
+			<field name="code">9105227</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_227" model="sector">
+			<field name="name">Las Perdices</field>
+			<field name="code">9105228</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_228" model="sector">
+			<field name="name">Los Alamos</field>
+			<field name="code">9105229</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_229" model="sector">
+			<field name="name">La Selva</field>
+			<field name="code">9105230</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_230" model="sector">
+			<field name="name">Martínes de Rozas</field>
+			<field name="code">9105231</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_231" model="sector">
+			<field name="name">Millali</field>
+			<field name="code">9105232</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_232" model="sector">
+			<field name="name">Puquereo</field>
+			<field name="code">9105233</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_233" model="sector">
+			<field name="name">Reserva Cora</field>
+			<field name="code">9105234</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_234" model="sector">
+			<field name="name">San Conrado</field>
+			<field name="code">9105235</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_235" model="sector">
+			<field name="name">San Juan</field>
+			<field name="code">9105236</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_236" model="sector">
+			<field name="name">Santa Dolores</field>
+			<field name="code">9105237</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_237" model="sector">
+			<field name="name">Santa Elvira</field>
+			<field name="code">9105238</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_238" model="sector">
+			<field name="name">Santa Trinidad</field>
+			<field name="code">9105239</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_239" model="sector">
+			<field name="name">Santa Elfrida</field>
+			<field name="code">9105240</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_240" model="sector">
+			<field name="name">Santa Elba</field>
+			<field name="code">9105241</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_241" model="sector">
+			<field name="name">Tumuntuco</field>
+			<field name="code">9105242</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_242" model="sector">
+			<field name="name">Vista Hermosa</field>
+			<field name="code">9105243</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_243" model="sector">
+			<field name="name">Villa Aldea</field>
+			<field name="code">9105244</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_244" model="sector">
+			<field name="name">Barrio Industrial</field>
+			<field name="code">9105245</field>
+			<field name="sector_type">OT</field>
+		</record>
+		<record id="sector_245" model="sector">
+			<field name="name">Freire</field>
+			<field name="code">9105246</field>
+			<field name="sector_type">OT</field>
+		</record>
+		<record id="sector_246" model="sector">
+			<field name="name">Quepe</field>
+			<field name="code">9105247</field>
+			<field name="sector_type">OT</field>
+		</record>
+		<record id="sector_247" model="sector">
+			<field name="name">Radal</field>
+			<field name="code">9105248</field>
+			<field name="sector_type">OT</field>
+		</record>
+		<record id="sector_248" model="sector">
+			<field name="name">Ampliación Los Manza</field>
+			<field name="code">9105249</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_249" model="sector">
+			<field name="name">Ampliación Melipilla</field>
+			<field name="code">9105250</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_250" model="sector">
+			<field name="name">Ampliación Villa Fre</field>
+			<field name="code">9105251</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_251" model="sector">
+			<field name="name">Bernardo Etchebarne</field>
+			<field name="code">9105252</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_252" model="sector">
+			<field name="name">Carilafquen</field>
+			<field name="code">9105253</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_253" model="sector">
+			<field name="name">El Bosque</field>
+			<field name="code">9105254</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_254" model="sector">
+			<field name="name">El Porvenir</field>
+			<field name="code">9105255</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_255" model="sector">
+			<field name="name">El Molino</field>
+			<field name="code">9105256</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_256" model="sector">
+			<field name="name">José Delgado</field>
+			<field name="code">9105257</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_257" model="sector">
+			<field name="name">Juan Seguel</field>
+			<field name="code">9105258</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_258" model="sector">
+			<field name="name">Jorge Alessandrí</field>
+			<field name="code">9105259</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_259" model="sector">
+			<field name="name">Los Manzanos</field>
+			<field name="code">9105260</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_260" model="sector">
+			<field name="name">Los Encinos</field>
+			<field name="code">9105261</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_261" model="sector">
+			<field name="name">Maile</field>
+			<field name="code">9105262</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_262" model="sector">
+			<field name="name">Padre Humberto Toro</field>
+			<field name="code">9105263</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_263" model="sector">
+			<field name="name">Padre Hurtado</field>
+			<field name="code">9105264</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_264" model="sector">
+			<field name="name">Pio Seco Garcia</field>
+			<field name="code">9105265</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_265" model="sector">
+			<field name="name">Ribera</field>
+			<field name="code">9105266</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_266" model="sector">
+			<field name="name">Santa Emilia Uno</field>
+			<field name="code">9105267</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_267" model="sector">
+			<field name="name">Santa Emilia Dos</field>
+			<field name="code">9105268</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_268" model="sector">
+			<field name="name">Santa Emilia Tres</field>
+			<field name="code">9105269</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_269" model="sector">
+			<field name="name">Villa Estación</field>
+			<field name="code">9105270</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_270" model="sector">
+			<field name="name">Villa El Progreso</field>
+			<field name="code">9105271</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_271" model="sector">
+			<field name="name">Villa La Esperanza</field>
+			<field name="code">9105272</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_272" model="sector">
+			<field name="name">Viola Schleyer</field>
+			<field name="code">9105273</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_273" model="sector">
+			<field name="name">Villa Freire</field>
+			<field name="code">9105274</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_274" model="sector">
+			<field name="name">Villa Quepe</field>
+			<field name="code">9105275</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_275" model="sector">
+			<field name="name">Arauco</field>
+			<field name="code">9105276</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_276" model="sector">
+			<field name="name">Alameda</field>
+			<field name="code">9105277</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_277" model="sector">
+			<field name="name">Bosques de Radal</field>
+			<field name="code">9105278</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_278" model="sector">
+			<field name="name">Campamento</field>
+			<field name="code">9105279</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_279" model="sector">
+			<field name="name">Cahuinpangue</field>
+			<field name="code">9105280</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_280" model="sector">
+			<field name="name">Centro de Acopio</field>
+			<field name="code">9105281</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_281" model="sector">
+			<field name="name">El Laurel</field>
+			<field name="code">9105282</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_282" model="sector">
+			<field name="name">El Comienzo</field>
+			<field name="code">9105283</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_283" model="sector">
+			<field name="name">El Guindal</field>
+			<field name="code">9105284</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_284" model="sector">
+			<field name="name">El Lucero</field>
+			<field name="code">9105285</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_285" model="sector">
+			<field name="name">El Maiten</field>
+			<field name="code">9105286</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_286" model="sector">
+			<field name="name">El Esfuerzo</field>
+			<field name="code">9105287</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_287" model="sector">
+			<field name="name">Huilquilco</field>
+			<field name="code">9105288</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_288" model="sector">
+			<field name="name">Hacienda Allipen</field>
+			<field name="code">9105289</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_289" model="sector">
+			<field name="name">La Unión</field>
+			<field name="code">9105290</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_290" model="sector">
+			<field name="name">Las Dichas</field>
+			<field name="code">9105291</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_291" model="sector">
+			<field name="name">Los Aromos</field>
+			<field name="code">9105292</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_292" model="sector">
+			<field name="name">Los Notros</field>
+			<field name="code">9105293</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_293" model="sector">
+			<field name="name">Los Quilantos</field>
+			<field name="code">9105294</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_294" model="sector">
+			<field name="name">La Envidia</field>
+			<field name="code">9105295</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_295" model="sector">
+			<field name="name">Las Chamizas</field>
+			<field name="code">9105296</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_296" model="sector">
+			<field name="name">Los Arándanos</field>
+			<field name="code">9105297</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_297" model="sector">
+			<field name="name">Los Castaños</field>
+			<field name="code">9105298</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_298" model="sector">
+			<field name="name">La Esperanza</field>
+			<field name="code">9105299</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_299" model="sector">
+			<field name="name">Las Quemas</field>
+			<field name="code">9105300</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_300" model="sector">
+			<field name="name">Los Confines</field>
+			<field name="code">9105301</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_301" model="sector">
+			<field name="name">Los Lirios</field>
+			<field name="code">9105302</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_302" model="sector">
+			<field name="name">Maitenes</field>
+			<field name="code">9105303</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_303" model="sector">
+			<field name="name">Nueve de Julio</field>
+			<field name="code">9105304</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_304" model="sector">
+			<field name="name">Quinta San Antonio</field>
+			<field name="code">9105305</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_305" model="sector">
+			<field name="name">Quilas Bajas</field>
+			<field name="code">9105306</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_306" model="sector">
+			<field name="name">Santa Paula</field>
+			<field name="code">9105307</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_307" model="sector">
+			<field name="name">San Pedro</field>
+			<field name="code">9105308</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_308" model="sector">
+			<field name="name">San Ramón</field>
+			<field name="code">9105309</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_309" model="sector">
+			<field name="name">San Alfonso</field>
+			<field name="code">9105310</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_310" model="sector">
+			<field name="name">San Cristobal</field>
+			<field name="code">9105311</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_311" model="sector">
+			<field name="name">San Judas Tadeo</field>
+			<field name="code">9105312</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_312" model="sector">
+			<field name="name">San Nicolas</field>
+			<field name="code">9105313</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_313" model="sector">
+			<field name="name">Santa Amalia</field>
+			<field name="code">9105314</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_314" model="sector">
+			<field name="name">San Roque</field>
+			<field name="code">9105315</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_315" model="sector">
+			<field name="name">Villa El Átomo</field>
+			<field name="code">9105316</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_316" model="sector">
+			<field name="name">Vivero Santa Pilar</field>
+			<field name="code">9105317</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_317" model="sector">
+			<field name="name">San Aurelio</field>
+			<field name="code">9105318</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_318" model="sector">
+			<field name="name">Agustín Curín</field>
+			<field name="code">9105319</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_319" model="sector">
+			<field name="name">Faja Junguers</field>
+			<field name="code">9105320</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_320" model="sector">
+			<field name="name">Santa Gemita</field>
+			<field name="code">9105321</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_321" model="sector">
+			<field name="name">San Luis</field>
+			<field name="code">9105322</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_322" model="sector">
+			<field name="name">Santa Marta</field>
+			<field name="code">9105323</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_323" model="sector">
+			<field name="name">Villa El Valle</field>
+			<field name="code">9105324</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_324" model="sector">
+			<field name="name">Gabriela Mistral</field>
+			<field name="code">9105325</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_325" model="sector">
+			<field name="name">Caracas</field>
+			<field name="code">9105326</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_326" model="sector">
+			<field name="name">Villa las Rozas</field>
+			<field name="code">9105327</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_327" model="sector">
+			<field name="name">Villa San Ramón</field>
+			<field name="code">9105328</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_328" model="sector">
+			<field name="name">Mi Sueño</field>
+			<field name="code">9105329</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_329" model="sector">
+			<field name="name">La Suerte</field>
+			<field name="code">9105330</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_330" model="sector">
+			<field name="name">Campo Lindo</field>
+			<field name="code">9105331</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_331" model="sector">
+			<field name="name">El Copihue</field>
+			<field name="code">9105332</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_332" model="sector">
+			<field name="name">Las Tranqueras</field>
+			<field name="code">9105333</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_333" model="sector">
+			<field name="name">La Piña</field>
+			<field name="code">9105334</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_334" model="sector">
+			<field name="name">Santa Adela</field>
+			<field name="code">9105335</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_335" model="sector">
+			<field name="name">Santa Isabel</field>
+			<field name="code">9105336</field>
+			<field name="sector_type">HJ</field>
+		</record>
+		<record id="sector_336" model="sector">
+			<field name="name">Quepe</field>
+			<field name="code">9105337</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_337" model="sector">
+			<field name="name">Agrícola Ganadera Forestal Tumuntuco</field>
+			<field name="code">9105338</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_338" model="sector">
+			<field name="name">Las Juntas</field>
+			<field name="code">9105339</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_339" model="sector">
+			<field name="name">La Negra</field>
+			<field name="code">9105340</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_340" model="sector">
+			<field name="name">El Risco</field>
+			<field name="code">9105341</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_341" model="sector">
+			<field name="name">Santa Luisa</field>
+			<field name="code">9105342</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_342" model="sector">
+			<field name="name">Pillan</field>
+			<field name="code">9105343</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_343" model="sector">
+			<field name="name">Villa Renacer</field>
+			<field name="code">9105344</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_344" model="sector">
+			<field name="name">San Antonio</field>
+			<field name="code">9105345</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_345" model="sector">
+			<field name="name">San Luis</field>
+			<field name="code">9105346</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_346" model="sector">
+			<field name="name">Condominio Las Rosas</field>
+			<field name="code">9105347</field>
+			<field name="sector_type">CS</field>
+		</record>
+		<record id="sector_347" model="sector">
+			<field name="name">Isidro Antinao</field>
+			<field name="code">9105348</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_348" model="sector">
+			<field name="name">Tren Sur</field>
+			<field name="code">9105349</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_349" model="sector">
+			<field name="name">Parque Horizonte</field>
+			<field name="code">9105350</field>
+			<field name="sector_type">CS</field>
+		</record>
+		<record id="sector_350" model="sector">
+			<field name="name">Calvuleo Marilao</field>
+			<field name="code">9105351</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_351" model="sector">
+			<field name="name">Patagonia Food</field>
+			<field name="code">9105352</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_352" model="sector">
+			<field name="name">Añihue</field>
+			<field name="code">9105353</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_353" model="sector">
+			<field name="name">Villa El Edén</field>
+			<field name="code">9105354</field>
+			<field name="sector_type">PB</field>
+		</record>
+		<record id="sector_354" model="sector">
+			<field name="name">Condominios Mahuidache</field>
+			<field name="code">9105355</field>
+			<field name="sector_type">CS</field>
+		</record>
+		<record id="sector_355" model="sector">
+			<field name="name">El Radalito</field>
+			<field name="code">9105356</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_356" model="sector">
+			<field name="name">Las Galias</field>
+			<field name="code">9105357</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_357" model="sector">
+			<field name="name">El Álamo</field>
+			<field name="code">9105358</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_358" model="sector">
+			<field name="name">Fundo Navarrete</field>
+			<field name="code">9105359</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_359" model="sector">
+			<field name="name">Quinta El Carmen</field>
+			<field name="code">9105360</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_360" model="sector">
+			<field name="name">Satoco</field>
+			<field name="code">9105361</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_361" model="sector">
+			<field name="name">Los Quilantos</field>
+			<field name="code">9105362</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_362" model="sector">
+			<field name="name">La Cabaña</field>
+			<field name="code">9105363</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_363" model="sector">
+			<field name="name">Mulato Huenulef</field>
+			<field name="code">9105364</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_364" model="sector">
+			<field name="name">Vivero Forestal Los Robles</field>
+			<field name="code">9105365</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_365" model="sector">
+			<field name="name">Forestal Fátima</field>
+			<field name="code">9105366</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_366" model="sector">
+			<field name="name">Río Manzanares</field>
+			<field name="code">9105367</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_367" model="sector">
+			<field name="name">El Rosario</field>
+			<field name="code">9105368</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_368" model="sector">
+			<field name="name">El Manzano</field>
+			<field name="code">9105369</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_369" model="sector">
+			<field name="name">Condominios Viña Los Ríos</field>
+			<field name="code">9105370</field>
+			<field name="sector_type">CS</field>
+		</record>
+		<record id="sector_370" model="sector">
+			<field name="name">El Arrayán</field>
+			<field name="code">9105371</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_371" model="sector">
+			<field name="name">San Felipe</field>
+			<field name="code">9105372</field>
+			<field name="sector_type">FN</field>
+		</record>
+		<record id="sector_372" model="sector">
+			<field name="name">Manuel Calfín</field>
+			<field name="code">9105373</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_373" model="sector">
+			<field name="name">Huechumilco</field>
+			<field name="code">9105374</field>
+			<field name="sector_type">CI</field>
+		</record>
+		<record id="sector_374" model="sector">
+			<field name="name">Pelales</field>
+			<field name="code">9105375</field>
+			<field name="sector_type">PC</field>
+		</record>
+		<record id="sector_375" model="sector">
+			<field name="name">El Porvenir</field>
+			<field name="code">9105376</field>
+			<field name="sector_type">OT</field>
+		</record>
+		<record id="sector_376" model="sector">
+			<field name="name">Agrícola San Alfonso</field>
+			<field name="code">9105377</field>
+			<field name="sector_type">PC</field>
+		</record>
+	</data>
+</openerp>
+

@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<!--
+	*
+	*	ROOT MENU CASEWORKER
+	*
+	-->
+
+        <!-- we define the form view for stock items -->
+        <menuitem id="social_help_assistance_manager_menu" parent="social_help_stock.social_help_manager_menu"
+		name="Social Assistance" sequence="10"
+       	groups="group_social_help_caseworkers,social_help_stock.group_social_help_DIDECO,social_help_stock.group_social_help_administrator"/>
+
+	<!--
+	*
+	*	SOCIAL HELP FILE
+	*
+	-->
+
+        <!-- we define the form view for stock items -->
+	<record model="ir.ui.view" id="social_help_voucher_form_view">
+		<field name="name">social.help.voucher.form</field>
+		<field name="model">social.help.voucher</field>
+		<field name="type">form</field>
+		<field name="arch" type="xml">
+		<form string="Social Report">
+			<group colspan="6" col="6">
+				<field name="company_id" widget="selection" groups="base.group_multi_company" invisible="1"/>
+				<separator string="Previous Data of Social Report" colspan="6"/>
+				<group colspan="6" col="6">
+					<group colspan="6" col="6">
+						<field name="voucher_code"/>
+						<field name="statement"/>
+						<field name="caseworker_name" widget="selection"/>
+					</group>
+					<group colspan="6" col="6">
+						<field name="date"/>
+						<field name="family_id"/>
+						<field name="member_id" on_change="complete_folio_data(family_id,member_id)"/>
+					</group>
+				</group>
+				<separator string="General Data of Social Report" colspan="6"/>
+				<group colspan="6" col="6">
+					<field name="member_full_name"/> <!--attrs="{'invisible':[('member_id','=',False)]}"/>-->
+					<field name="member_age"/> <!-- attrs="{'invisible':[('member_id','=',False)]}/>"-->
+					<field name="family_score"/> <!-- attrs="{'invisible':[('member_id','=',False)]}"/>-->
+					<field name="family_sector"/> <!-- attrs="{'invisible':[('member_id','=',False)]}"/>-->
+					<field name="member_address"/>  <!--attrs="{'invisible':[('member_id','=',False)]}"/>-->
+					<field name="member_phone"/> <!--attrs="{'invisible':[('member_id','=',False)]}"/> -->
+					<field name="family_jjvv"/> <!-- attrs="{'invisible':[('member_id','=',False)]}"/> -->
+				</group>
+			</group>
+			<group col="4" colspan="4">
+				<separator string="Data Related to the Beneficiary" colspan="4"/>
+				<notebook colspan="4">
+					<page string="Family Group">
+						<group colspan="6" col="6">
+							<group colspan="6" col="6">
+								<field name="ben_family_members" nolabel="1" colspan="6"/>
+							</group>
+							<group colspan="3" col="3">
+								<field name="family_num_men"/>
+								<field name="family_num_women"/>
+								<field name="family_num_children"/>
+								<field name="family_total_num"/>
+							</group>
+							<group colspan="3" col="3">
+								<field name="family_total_income"/>
+								<field name="family_percapita_income"/>
+							</group>
+						</group>
+					</page>
+					<page string="Data Related to the Beneficiary">
+						<group colspan="6" col="6">
+							<group colspan="6" col="6">
+								<group colspan="3" col="3">
+									<separator string="Beneficiary Dwelling" colspan="3"/>
+									<field name="family_dwelling" nolabel="1" colspan="3"/>
+								</group>
+								<group colspan="3" col="3">
+									<separator string="Income" colspan="3"/>
+									<field name="family_income_description" nolabel="1" colspan="3"/>
+								</group>
+							</group>
+							<group colspan="6" col="6">
+								<group colspan="3" col="3">
+									<separator string="Beneficiary Health" colspan="3"/>
+									<field name="member_health" nolabel="1" colspan="3"/>
+								</group>
+								<group colspan="3" col="3">
+									<separator string="Situation and Professional Evaluation" colspan="3"/>
+									<field name="member_situation_eva" nolabel="1" colspan="3"/>
+								</group>
+							</group>
+						</group>
+					</page>
+					<page string="Benefice">
+						<group colspan="6" col="6">
+							<separator string="Requested Items" colspan="6"/>
+							<field name="ben_requested_items" colspan="6" nolabel="1"/>
+						</group>
+						<group colspan="6" col="6">
+							<group colspan="3" col="3">
+								<separator string="Description" colspan="3"/>
+								<field name="ben_description" colspan="3" nolabel="1"/>
+							</group>
+							<group colspan="3" col="3">
+								<separator string="Observations" colspan="3"/>
+								<field name="ben_observations" colspan="3" nolabel="1"/>
+							</group>
+						</group>
+					</page>
+				</notebook>
+			</group>
+		</form>
+		</field>
+	</record>
+
+	<!-- we define the tree view for voucher view -->
+	<record model="ir.ui.view" id="social_help_voucher_tree_view">
+		<field name="name">social.help.voucher.grocer.tree</field>
+		<field name="model">social.help.voucher</field>
+		<field name="type">tree</field>
+		<field name="arch" type="xml">
+		<tree string="Beneficiary Sheet" colors="red:state=='4';orange:state=='2';blue:state=='1';black:state=='3'">
+			<field name="voucher_code"/>
+			<field name="caseworker_name"/>
+			<field name="statement"/>
+			<field name="family_id"/>
+			<field name="member_id"/>
+			<field name="member_full_name"/>
+			<field name="family_sector"/>
+			<field name="member_address"/>
+			<field name="date"/>
+			<field name="state"/>
+			<button name="state_delivered_with_act" type="object" icon="gtk-go-forward" string="Set Delivered With Act" states="1"
+				groups="social_help_stock.group_social_help_grocers,social_help_stock.group_social_help_administrator"/>
+			<button name="state_delivered_without_act" type="object"
+				icon="gtk-go-forward" string="Set Delivered Without Act" states="2"
+				groups="social_help_stock.group_social_help_grocers,social_help_stock.group_social_help_administrator"/>
+			<button name="state_in_demand_with_act" groups="social_help_stock.group_social_help_administrator"
+				string="Set In Demand With Act" type="object" icon="gtk-go-back" states="3"/>
+			<button name="state_in_demand_without_act" groups="social_help_stock.group_social_help_administrator"
+				string="Set In Demand Without Act" type="object" icon="gtk-go-back" states="4"/>
+			<button name="state_in_demand_with_act" string="Set In Demand With Act" type="object" icon="gtk-yes" states="2"
+				groups="social_help_stock.group_social_help_administrator,social_help.group_social_help_caseworkers"/>
+			<button name="state_in_demand_without_act" string="Set In Demand Without Act" type="object" icon="gtk-no" states="1"
+				groups="social_help.group_social_help_caseworkers,social_help_stock.group_social_help_administrator"/>
+			<button name="state_delivered_with_act" string="Set Delivered With Act" type="object" icon="gtk-yes" states="4"
+				groups="social_help_stock.group_social_help_administrator,social_help.group_social_help_caseworkers"/>
+			<button name="state_delivered_without_act" string="Set Delivered Without Act" type="object" icon="gtk-no" states="3"
+				groups="social_help.group_social_help_caseworkers,social_help_stock.group_social_help_administrator"/>
+		</tree>
+		</field>
+	</record>
+
+
+<!--	<record id="seq_type_mgmtsystem_audit" model="ir.sequence.type">
+	            <field name="name">Management System Audit</field>
+                    <field name="code">mgmtsystem.audit</field>
+        </record>
+
+        <record id="seq_mgmtsystem_audit" model="ir.sequence">
+                    <field name="name">Management System Audit</field>
+                    <field name="code">mgmtsystem.audit</field>
+                    <field name="prefix"></field>
+                    <field name="padding">3</field>
+        </record>
+-->
+
+	<record id="view_social_help_voucher_filter" model="ir.ui.view">
+		<field name="name">social.help.voucher.filter</field>
+		<field name="model">social.help.voucher</field>
+		<field name="type">search</field>
+		<field name="arch" type="xml">
+		<search string="Social Report Searching">
+			<group col="5" colspan="5">
+				<separator string="Search"/>
+				<field name="member_id" string="Search by Rut" select="1" domain="[]"/>
+				<field name="member_full_name" select="1"/>
+				<field name="caseworker_name" select="1"/>
+				<field name="family_id" select="1"/>
+				<field name="family_sector" select="1"/>
+				<newline/>
+				<filter string="In Demand - With Act" name="state" domain="[('state','=','1')]"/>
+				<filter string="In Demand - Without Act" name="state" domain="[('state','=','2')]"/>
+				<filter string="Delivered - With Act" name="state" domain="[('state','=','3')]"/>
+				<filter string="Delivered - Without Act" name="state" domain="[('state','=','4')]"/>
+			</group>
+			<newline/>
+			<group expand="0" string="Group By" colspan="4" col="8" groups="base.group_extended">
+				<filter string="Rut" icon="terp-personal" domain="[]"
+					context="{'group_by':'member_id'}"/>
+				<filter string="Unic National Folio" icon="terp-personal" domain="[]"
+					context="{'group_by':'family_id'}"/>
+				<filter string="Full Name" icon="terp-personal" domain="[]"
+					context="{'group_by':'member_full_name'}"/>
+				<separator orientation="vertical"/>
+				<filter string="Sector" icon="terp-stock_effects-object-colorize" domain="[]"
+					context="{'group_by':'family_sector'}"/>
+			</group>
+		</search>
+		</field>
+	</record>
+
+        <!-- we define an Action -->
+        <record model="ir.actions.act_window" id="action_social_help_voucher">
+		<field name="name">Social Report Management</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">social.help.voucher</field>
+		<field name="view_mode">tree,form</field>
+		<field name="search_view_id" ref="view_social_help_voucher_filter"/>
+        </record>
+
+        <menuitem id="voucher_menu_action" action="action_social_help_voucher" parent="social_help_assistance_manager_menu"
+		name="Social Report List" sequence="13"/>
+
+
+	<!--
+	*
+	*	FAMILY GROUP
+	*
+	-->
+
+
+	<!-- we define the family group form -->
+	<record model="ir.ui.view" id="family_form">
+		<field name="name">social.family.group.form</field>
+		<field name="model">social.family.group</field>
+		<field name="type">form</field>
+		<field name="arch" type="xml">
+		<form string="Family Form">
+			<group colspan="4" col="4">
+				<group colspan="2" col="2">
+					<field name="family_folio"/>
+					<field name="family_sector"/>
+					<field name="family_jjvv"/>
+					<field name="family_score"/>
+					<field name="family_coord"/>
+				</group>
+				<group colspan="2" col="2">
+					<field name="family_num_men"/>
+					<field name="family_num_women"/>
+					<field name="family_num_children"/>
+					<field name="family_total_num"/>
+				</group>
+				<separator string="Family Income Description" colspan="4"/>
+				<group colspan="4" col="4">
+					<field name="family_income_description" nolabel="1" colspan="4"/>
+				</group>
+				<group colspan="4" col="4">
+					<field name="family_percapita_income"/>
+					<field name="family_total_income"/>
+				</group>
+				<group colspan="4" col="4">
+					<separator string="Family Dwelling Description" colspan="4"/>
+					<field name="family_dwelling" nolabel="1" colspan="4"/>
+				</group>
+			</group>
+		</form>
+		</field>
+	</record>
+
+	<!-- we define the family group tree -->
+	<record model="ir.ui.view" id="family_tree">
+		<field name="name">social.family.group.tree</field>
+		<field name="model">social.family.group</field>
+		<field name="type">tree</field>
+		<field name="arch" type="xml">
+			<tree string="Family Tree">
+				<field name="family_folio"/>
+				<field name="family_sector"/>
+				<field name="family_coord"/>
+				<field name="family_score"/>
+				<field name="family_total_num"/>
+				<field name="family_total_income"/>
+			</tree>
+		</field>
+	</record>
+
+	<record id="view_family_group_filter" model="ir.ui.view">
+		<field name="name">social.family.group.filter</field>
+		<field name="model">social.family.group</field>
+		<field name="type">search</field>
+		<field name="arch" type="xml">
+		<search string="Family Group Searching">
+			<group col="2" colspan="2">
+				<field name="family_folio"/>
+				<field name="family_sector"/>
+				<field name="family_coord"/>
+				<field name="family_score"/>
+			</group>
+			<newline/>
+			<group expand="0" string="Group By" colspan="4" col="8" groups="base.group_extended">
+				<filter string="Sector" icon="terp-stock_effects-object-colorize" domain="[]"
+					context="{'group_by':'family_sector'}"/>
+			</group>
+		</search>
+		</field>
+	</record>
+
+	<!-- We define a family group action -->
+	<record model="ir.actions.act_window" id="action_family_group">
+		<field name="name">Family Group</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">social.family.group</field>
+		<field name="view_mode">tree,form</field>
+		<field name="search_view_id" ref="view_family_group_filter"/>
+	</record>
+
+	<menuitem id="family_group_menu" action="action_family_group" parent="social_help_assistance_manager_menu" name="Family Groups"
+		groups="social_help_stock.group_social_help_administrator,group_social_help_caseworkers" sequence="12"/>
+
+
+	<!--
+	*
+	*	FAMILY MEMBERS
+	*
+	-->
+
+
+	<!-- we define the member of the family form -->
+	<record model="ir.ui.view" id="member_form">
+		<field name="name">social.family.group.member.form</field>
+		<field name="model">social.family.group.member</field>
+		<field name="type">form</field>
+		<field name="arch" type="xml">
+		<form string="Family Member Form">
+			<group colspan="6" col="6">
+				<field name="member_folio"/>
+				<field name="member_rut"/>
+				<field name="member_full_name"/>
+				<field name="member_date_birth"/>
+				<field name="member_age"/>
+				<field name="member_gender"/>
+				<field name="member_address"/>
+				<field name="member_phone"/>
+				<field name="member_kinship"/>
+				<field name="member_marital_status"/>
+				<field name="member_schooling"/>
+				<field name="member_activity"/>
+				<field name="member_income"/>
+				<field name="member_health_insurance"/>
+				<field name="member_pension"/>
+				<field name="member_suf"/>
+			</group>
+			<group colspan="6" col="6">
+				<group colspan="3" col="3">
+					<separator string="Beneficiary Health" colspan="3"/>
+					<field name="member_health" nolabel="1" colspan="3"/>
+				</group>
+				<group colspan="3" col="3">
+					<separator string="Situation and Professional Evaluation" colspan="3"/>
+					<field name="member_situation_eva" nolabel="1" colspan="3"/>
+				</group>
+			</group>
+			<group colspan="6" col="6">
+				<separator string="Observations" colspan="6"/>
+				<field name="member_observations" nolabel="1" colspan="6"/>
+			</group>
+		</form>
+		</field>
+	</record>
+
+	<!-- we define the member of the family tree -->
+	<record model="ir.ui.view" id="member_tree">
+		<field name="name">social.family.group.member.tree</field>
+		<field name="model">social.family.group.member</field>
+		<field name="type">tree</field>
+		<field name="arch" type="xml">
+		<tree string="List of Family Members">
+			<field name="member_rut"/>
+			<field name="member_full_name"/>
+			<field name="member_folio"/>
+			<field name="member_kinship"/>
+			<field name="member_age"/>
+			<field name="member_marital_status"/>
+			<field name="member_schooling"/>
+			<field name="member_activity"/>
+			<field name="member_health_insurance"/>
+			<field name="member_suf"/>
+			<field name="member_pension"/>
+		</tree>
+		</field>
+	</record>
+
+	<record id="view_family_group_member_filter" model="ir.ui.view">
+		<field name="name">social.family.group.member.filter</field>
+		<field name="model">social.family.group.member</field>
+		<field name="type">search</field>
+		<field name="arch" type="xml">
+		<search string="Family Group Member Searching">
+			<group col="2" colspan="2">
+				<field name="member_rut"/>
+				<field name="member_full_name"/>
+				<field name="member_kinship"/>
+				<field name="member_folio"/>
+			</group>
+			<newline/>
+			<group expand="0" string="Group By" colspan="4" col="8" groups="base.group_extended">
+				<filter string="Unic National Folio" icon="terp-personal" domain="[]" context="{'group_by':'member_folio'}"/>
+				<filter string="Kinship" icon="terp-personal" domain="[]" context="{'group_by':'member_kinship'}"/>
+				<filter string="Marital Status" icon="terp-stock_effects-object-colorize" domain="[]"
+					context="{'group_by':'member_marital_status'}"/>
+			</group>
+		</search>
+		</field>
+	</record>
+
+	<!-- we define the member of the family action -->
+	<record model="ir.actions.act_window" id="action_family_group_member">
+		<field name="name">Family Group Members</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">social.family.group.member</field>
+		<field name="view_mode">tree,form</field>
+		<field name="search_view_id" ref="view_family_group_member_filter"/>
+	</record>
+
+	<menuitem id="family_group_member_menu" action="action_family_group_member"
+		parent="social_help_assistance_manager_menu" name="Family Group Members"
+		groups="social_help_stock.group_social_help_administrator,group_social_help_caseworkers" sequence="11"/>
+
+
+
+	<!--
+	*
+	*	SECTORS
+	*
+	-->
+
+
+	<!-- we define the form view for Sectors -->
+	<record model="ir.ui.view" id="social_help_voucher_sector_form_view">
+		<field name="name">social.help.voucher.sector.form</field>
+		<field name="model">social.sector</field>
+		<field name="type">form</field>
+		<field name="arch" type="xml">
+		<form string="Sector">
+			<field name="code"/>
+			<field name="name"/>
+		</form>
+                </field>
+	</record>
+
+	<!-- we define the tree view for Sectors -->
+	<record model="ir.ui.view" id="social_help_voucher_sector_tree_view">
+		<field name="name">social.help.voucher.sector.tree</field>
+		<field name="model">social.sector</field>
+		<field name="type">tree</field>
+		<field name="arch" type="xml">
+		<tree string="Sector">
+			<field name="name"/>
+			<field name="code"/>
+		</tree>
+                </field>
+	</record>
+
+	<!-- we define an action for items viewer-->
+	<record model="ir.actions.act_window" id="action_social_help_sector">
+		<field name="name">Sectors</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">social.sector</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+
+	<menuitem id="social_sector_menu_action" action="action_social_help_sector" parent="social_help_stock.configuration_menu" name="Sectors"
+		groups="social_help_stock.group_social_help_administrator,social_help_stock.group_social_help_DIDECO" sequence="42"/>
+
+
+	<!--
+	*
+	*	VOUCHER ITEMS VIEW
+	*
+	-->
+
+
+	<!-- we define the form view for stock items -->
+	<record model="ir.ui.view" id="social_help_voucher_item_form_view">
+		<field name="name">social.help.voucher.item.form</field>
+		<field name="model">social.help.voucher.item</field>
+		<field name="type">form</field>
+		<field name="arch" type="xml">
+		<form string="Items">
+			<field name="table_id" invisible="1"/>
+			<field name="item_id"/>
+			<field name="amount"/>
+		</form>
+                </field>
+	</record>
+
+	<!-- we define the tree view for stock items -->
+	<record model="ir.ui.view" id="social_help_voucher_item_tree_view">
+		<field name="name">social.help.voucher.item.tree</field>
+		<field name="model">social.help.voucher.item</field>
+		<field name="type">tree</field>
+		<field name="arch" type="xml">
+		<tree string="Select the Requested Items">
+			<field name="item_id"/>
+			<field name="amount"/>
+		</tree>
+		</field>
+	</record>
+
+	<!-- we define an action for items viewer-->
+	<record model="ir.actions.act_window" id="action_social_help_voucher_items_viewer">
+		<field name="name">Items</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">social.help.voucher.item</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+
+<!--	<record model="ir.actions.act_window" id="action_voucher_grocer">
+		<field name="name">Social Report Summary</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">social.voucher</field>
+		<field name="view_mode">tree</field>
+		<field name="search_view_id" ref="view_social_assistance_filter"/>
+	</record>
+
+	<menuitem id="voucher_grocer_menu_action" action="action_voucher_grocer" parent="social_stock_manager_menu" name="Social Report Summary"
+		groups="group_social_help_administrator" sequence="23"/>-->
+
+
+	<!--
+	*
+	*	GRAFICS
+	*
+	-->
+
+
+	<!-- Caseworker aids deliver -->
+	<record model="ir.ui.view" id="social_caseworker_graph">
+		<field name="name">social.caseworkers.graph</field>
+		<field name="model">res.users</field>
+		<field name="type">graph</field>
+		<field name="arch" type="xml">
+			<graph string="Help Delivered by Caseworker" type="bar">
+				<field name="name"/>
+				<field name="count" operator="+" string="Cantidad de Ayudas Entregadas por Cada Asistente Social"/>
+			</graph>
+		</field>
+	</record>
+
+	<!-- Aids deliver by sector -->
+	<record model="ir.ui.view" id="social_sector_graph">
+		<field name="name">social.sector.graph</field>
+		<field name="model">social.sector</field>
+		<field name="type">graph</field>
+		<field name="arch" type="xml">
+			<graph string="Help Delivered by Sector" type="bar">
+				<field name="name"/>
+				<field name="count" operator="+" string="Cantidad de Ayudas Entregadas por Cada Sector"/>
+			</graph>
+		</field>
+	</record>
+
+</odoo>

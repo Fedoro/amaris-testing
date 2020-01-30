@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <!--
+	*
+	*	GENERAL MENU ITEMS
+	*
+        -->
+
+	<!-- Items Viewer menu definition -->
+	<menuitem id="social_help_stock_items_viewer_menu" parent="social_help_stock.social_help_manager_menu" name="Items" sequence="30"
+	groups="social_help_stock.group_social_help_administrator,social_help_stock.group_social_help_DIDECO,group_social_help_caseworkers"/>
+	<menuitem id="social_help_stock_item_menu_action_viewer" action="social_help_stock.action_social_help_stock_items_viewer"
+		parent="social_help_stock_items_viewer_menu" name="Items" sequence="31"/>
+
+	<!--
+	*
+	*	OUTPUT
+	*
+	-->
+
+
+        <!-- we define the form view for stock OUTPUT movements -->
+	<record model="ir.ui.view" id="social_help_stock_out_forms_form_view">
+		<field name="name">social.help.stock.out.forms.form</field>
+		<field name="model">social.help.stock.out.forms</field>
+		<field name="type">form</field>
+		<field name="arch" type="xml">
+		<form string="Stock Output Registration">
+			<group colspan="6" col="6">
+				<separator string="Social Report Data" colspan="6"/>
+				<field name="company_id" widget="selection" groups="base.group_multi_company" invisible="1"/>
+				<field name="voucher_code" widget="selection" domain="[('state', 'in', ['1','2'])]"
+					on_change="complete(voucher_code)"/>
+			</group>
+			<group colspan="6" col="6">
+				<separator string="Stock Movement Data" colspan="6"/>
+				<group col="3" colspan="3">
+					<field name="warehouse_number"/>
+					<field name="type_action"/>
+				</group>
+				<group col="3" colspan="3">
+					<field name="date" readonly="1"/>
+					<field name="withdrawn_by"/>
+				</group>
+			</group>
+			<group colspan="6" col="6">
+				<separator string="Items" colspan="6"/>
+				<field name="items" nolabel="1" colspan="6"/>
+			</group>
+		</form>
+		</field>
+	</record>
+
+	<!-- we define the tree view for stock OUTPUT movements -->
+	<record model="ir.ui.view" id="social_help_stock_out_forms_tree_view">
+		<field name="name">social.help.stock.out.forms.tree</field>
+		<field name="model">social.help.stock.out.forms</field>
+		<field name="type">tree</field>
+		<field name="arch" type="xml">
+			<tree string="Stock Sheet">
+				<field name="voucher_code"/>
+				<field name="warehouse_number"/>
+				<field name="date"/>
+				<field name="type_action"/>
+				<field name="withdrawn_by"/>
+			</tree>
+		</field>
+	</record>
+
+	<!-- we define the stock OUTPUT forms filter -->
+	<record id="view_social_help_stock_out_forms_filter" model="ir.ui.view">
+		<field name="name">social.help.stock.out.forms.filter</field>
+		<field name="model">social.help.stock.out.forms</field>
+		<field name="type">search</field>
+		<field name="arch" type="xml">
+		<search string="Search by Item">
+			<group col="2" colspan="2">
+				<field name="warehouse_number" select="1"/>
+				<field name="date" select="1"/>
+				<field name="withdrawn_by" select="1"/>
+			</group>
+			<newline/>
+			<group expand="0" string="Group By" colspan="4" col="8" groups="base.group_extended">
+				<filter string="Warehouse Number" icon="terp-stock_effects-object-colorize" domain="[]"
+					context="{'group_by':'warehouse_name'}"/>
+				<filter string="Withdrawn By" icon="terp-personal"
+					domain="[]" context="{'group_by':'withdrawn_by'}"/>
+			</group>
+		</search>
+		</field>
+	</record>
+
+        <!-- we define a INPUT forms action -->
+        <record model="ir.actions.act_window" id="action_social_help_stock_out_forms">
+		<field name="name">Stock Output Forms</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">social.help.stock.out.forms</field>
+		<field name="view_mode">tree,form,page</field>
+		<field name="search_view_id" ref="view_social_help_stock_out_forms_filter"/>
+        </record>
+
+	<!-- root menuitem OUTPUT registration -->
+        <menuitem id="social_help_stock_out_registration_menu_action" action="action_social_help_stock_out_forms"
+		parent="social_help_stock.social_help_stock_manager_menu" sequence="22" name="Stock Output Registration"/>
+
+
+</odoo>

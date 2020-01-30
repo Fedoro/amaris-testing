@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		<!-- Sectors -->
+		<!-- we define the form view for Sectors -->
+		<record model="ir.ui.view" id="sector_form_view">
+			<field name="name">sector.form</field>
+			<field name="model">sector</field>
+			<field name="arch" type="xml">
+				<form string="Sector">
+					<sheet>
+						<group colspan="4">
+								<group>
+								<field name="name"/>
+								</group>
+								<group>
+								<field name="code"/>
+								</group>
+								<group>
+								<field name="sector_type"/>
+								</group>
+						</group>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<!-- we define the tree view for Sectors -->
+		<record model="ir.ui.view" id="sector_tree_view">
+			<field name="name">sectors.tree</field>
+			<field name="model">sector</field>
+			<field name="type">tree</field>
+			<field name="arch" type="xml">
+				<tree string="Sector">
+					<field name="name"/>
+					<field name="sector_type"/>
+					<field name="code"/>
+				</tree>
+			</field>
+		</record>
+
+		<!-- We define a filter for the sectors -->
+		<record id="view_sector_filter" model="ir.ui.view">
+			<field name="name">Sector Filter</field>
+			<field name="model">sector</field>
+			<field name="arch" type="xml">
+				<search string="Search Sectors">
+						<field name="code"/>
+						<field name="sector_type"/>
+						<field name="name"/>
+					<group expand="0" string="Group By" groups="base.group_extended">
+						<filter string="Code" name="code" domain="[]" context="{'group_by':'code'}"/>
+						<filter string="Type" name="sector_type" domain="[]" context="{'group_by':'sector_type'}"/>
+						<filter string="Name" name="name" domain="[]" context="{'group_by':'name'}"/>
+					</group>
+				</search>
+			</field>
+		</record>
+
+
+		<!-- we define an action for items viewer-->
+		<record model="ir.actions.act_window" id="action_sector">
+			<field name="name">Sectors</field>
+			<field name="res_model">sector</field>
+			<field name="view_mode">tree,form</field>
+			<field name="search_view_id" ref="view_sector_filter"/>
+		</record>
+
+
+		<menuitem id="sector_menu_root" name="Sectors" groups="sectors.group_sector_edit,sectors.group_sector_view"/>
+		<menuitem id="sector_menu" name="Sectors" parent="sector_menu_root" sequence="1"
+							groups="sectors.group_sector_edit,sectors.group_sector_view"/>
+		<menuitem id="sector_menu_action" action="action_sector" parent="sector_menu" name="Sectors" sequence="42"/>
+
+</odoo>

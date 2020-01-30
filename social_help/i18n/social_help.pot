@@ -1,0 +1,848 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* social_help
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.1-1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-18 18:25+0000\n"
+"PO-Revision-Date: 2012-05-18 18:25+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: social_help
+#: selection:social.help.stock.out.forms,type_action:0
+msgid "Delivery Act"
+msgstr "Delivery Act"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Search by Rut"
+msgstr "Search by Rut"
+
+#. module: social_help
+#: field:social.family.group.member,member_suf:0
+msgid "SUF"
+msgstr "SUF"
+
+#. module: social_help
+#: view:board.board:0
+msgid "Helps by Caseworker"
+msgstr "Helps by Caseworker"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Data Related to the Beneficiary"
+msgstr "Data Related to the Beneficiary"
+
+#. module: social_help
+#: model:ir.ui.menu,name:social_help.social_help_stock_out_registration_menu_action
+#: view:social.help.stock.out.forms:0
+msgid "Stock Output Registration"
+msgstr "Stock Output Registration"
+
+#. module: social_help
+#: model:ir.actions.report.xml,name:social_help.social_help_social_report
+msgid "Imprimir Informe Social"
+msgstr "Imprimir Informe Social"
+
+#. module: social_help
+#: model:res.groups,name:social_help.group_social_help_caseworkers
+msgid "Social Help Caseworkers"
+msgstr "Social Help Caseworkers"
+
+#. module: social_help
+#: code:addons/social_help/social_assistance.py:172
+#: code:addons/social_help/social_assistance.py:174
+#, python-format
+msgid "Insert a valid RUT in the field 'RUT'"
+msgstr "Insert a valid RUT in the field 'RUT'"
+
+#. module: social_help
+#: field:social.help.voucher.item,item_id:0
+msgid "Item Id"
+msgstr "Item Id"
+
+#. module: social_help
+#: view:social.help.voucher.item:0
+msgid "Select the Requested Items"
+msgstr "Select the Requested Items"
+
+#. module: social_help
+#: selection:social.family.group.member,member_marital_status:0
+msgid "Widow/er"
+msgstr "Widow/er"
+
+#. module: social_help
+#: field:social.help.voucher,company_id:0
+msgid "Company"
+msgstr "Company"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Benefice"
+msgstr "Benefice"
+
+#. module: social_help
+#: selection:social.family.group.member,member_schooling:0
+msgid "Technical Degree Complete"
+msgstr "Technical Degree Complete"
+
+#. module: social_help
+#: model:ir.actions.act_window,name:social_help.action_family_group_member
+#: model:ir.ui.menu,name:social_help.family_group_member_menu
+msgid "Family Group Members"
+msgstr "Family Group Members"
+
+#. module: social_help
+#: view:board.board:0
+#: model:ir.actions.act_window,name:social_help.sector_graph_view
+msgid "Helps by Sector"
+msgstr "Helps by Sector"
+
+#. module: social_help
+#: field:social.help.voucher,date:0
+msgid "Social Report Date"
+msgstr "Social Report Date"
+
+#. module: social_help
+#: view:social.help.stock.out.forms:0
+msgid "Social Report Data"
+msgstr "Social Report Data"
+
+#. module: social_help
+#: model:ir.actions.act_window,name:social_help.action_social_help_voucher
+msgid "Social Report Management"
+msgstr "Social Report Management"
+
+#. module: social_help
+#: selection:social.family.group.member,member_marital_status:0
+msgid "Married"
+msgstr "Married"
+
+#. module: social_help
+#: field:social.sector,name:0
+msgid "Sector Name"
+msgstr "Sector Name"
+
+#. module: social_help
+#: code:addons/social_help/social_assistance.py:35
+#: code:addons/social_help/social_assistance.py:172
+#: code:addons/social_help/social_assistance.py:174
+#: code:addons/social_help/stock.py:54
+#: code:addons/social_help/stock.py:77
+#: code:addons/social_help/stock.py:79
+#, python-format
+msgid "Error!"
+msgstr "Error!"
+
+#. module: social_help
+#: view:social.help.stock.out.forms:0
+msgid "Stock Movement Data"
+msgstr "Stock Movement Data"
+
+#. module: social_help
+#: selection:social.family.group.member,member_health_insurance:0
+msgid "FONASA"
+msgstr "FONASA"
+
+#. module: social_help
+#: view:social.help.voucher:0
+#: selection:social.help.voucher,state:0
+msgid "In Demand - With Act"
+msgstr "In Demand - With Act"
+
+#. module: social_help
+#: model:ir.model,name:social_help.model_social_help_voucher_item
+msgid "Social Report Item Reference"
+msgstr "Social Report Item Reference"
+
+#. module: social_help
+#: selection:social.family.group.member,member_schooling:0
+msgid "High School Complete"
+msgstr "High School Complete"
+
+#. module: social_help
+#: field:social.sector,code:0
+msgid "Sector Code"
+msgstr "Sector Code"
+
+#. module: social_help
+#: model:ir.model,name:social_help.model_social_help_stock_out_forms
+msgid "Stock Registration for Items Output"
+msgstr "Stock Registration for Items Output"
+
+#. module: social_help
+#: code:addons/social_help/stock.py:77
+#, python-format
+msgid "You do not have the number of items required!"
+msgstr "You do not have the number of items required!"
+
+#. module: social_help
+#: selection:social.family.group.member,member_gender:0
+msgid "Female"
+msgstr "Female"
+
+#. module: social_help
+#: field:social.help.voucher,family_id:0
+msgid "Search Unic National Folio"
+msgstr "Search Unic National Folio"
+
+#. module: social_help
+#: field:social.help.voucher,caseworker_name:0
+msgid "Caseworker Name"
+msgstr "Caseworker Name"
+
+#. module: social_help
+#: field:social.family.group,family_dwelling:0
+#: view:social.help.voucher:0
+#: field:social.help.voucher,family_dwelling:0
+msgid "Beneficiary Dwelling"
+msgstr "Beneficiary Dwelling"
+
+#. module: social_help
+#: selection:social.family.group.member,member_health_insurance:0
+msgid "ISAPRE"
+msgstr "ISAPRE"
+
+#. module: social_help
+#: field:social.family.group,family_income_description:0
+#: field:social.family.group.member,member_income:0
+#: view:social.help.voucher:0
+#: field:social.help.voucher,family_income_description:0
+msgid "Income"
+msgstr "Income"
+
+#. module: social_help
+#: model:ir.actions.act_window,name:social_help.action_family_group
+#: view:social.help.voucher:0
+msgid "Family Group"
+msgstr "Family Group"
+
+#. module: social_help
+#: model:ir.actions.act_window,name:social_help.action_social_help_stock_items_graph_view
+msgid "Item Graph"
+msgstr "Item Graph"
+
+#. module: social_help
+#: selection:social.family.group.member,member_pension:0
+msgid "State"
+msgstr "State"
+
+#. module: social_help
+#: field:social.help.stock.out.forms,company_id:0
+msgid "Warehouse"
+msgstr "Warehouse"
+
+#. module: social_help
+#: field:res.users,count:0
+#: field:social.sector,count:0
+msgid "Amount of helps"
+msgstr "Amount of helps"
+
+#. module: social_help
+#: view:social.family.group.member:0
+msgid "Family Member Form"
+msgstr "Family Member Form"
+
+#. module: social_help
+#: field:social.family.group.member,member_date_birth:0
+msgid "Date of Birth"
+msgstr "Date of Birth"
+
+#. module: social_help
+#: field:social.family.group,family_num_men:0
+#: field:social.help.voucher,family_num_men:0
+msgid "Men"
+msgstr "Men"
+
+#. module: social_help
+#: view:social.sector:0
+msgid "Cantidad de Ayudas Entregadas por Cada Sector"
+msgstr "Cantidad de Ayudas Entregadas por Cada Sector"
+
+#. module: social_help
+#: view:social.family.group:0
+#: view:social.family.group.member:0
+#: view:social.help.stock.out.forms:0
+#: view:social.help.voucher:0
+msgid "Group By"
+msgstr "Group By"
+
+#. module: social_help
+#: code:addons/social_help/social_assistance.py:179
+#: sql_constraint:social.family.group.member:0
+#, python-format
+msgid "The Rut is already in the records!"
+msgstr "The Rut is already in the records!"
+
+#. module: social_help
+#: field:social.help.stock.out.forms,date:0
+msgid "Output Date"
+msgstr "Output Date"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Social Report Searching"
+msgstr "Social Report Searching"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Rut"
+msgstr "Rut"
+
+#. module: social_help
+#: field:social.family.group.member,member_pension:0
+msgid "Pension Assistance"
+msgstr "Pension Assistance"
+
+#. module: social_help
+#: selection:social.family.group.member,member_health_insurance:0
+#: selection:social.family.group.member,member_pension:0
+#: selection:social.family.group.member,member_schooling:0
+msgid "None"
+msgstr "None"
+
+#. module: social_help
+#: view:social.family.group:0
+msgid "Family Tree"
+msgstr "Family Tree"
+
+#. module: social_help
+#: selection:social.family.group.member,member_marital_status:0
+msgid "Divorced"
+msgstr "Divorced"
+
+#. module: social_help
+#: view:board.board:0
+#: model:ir.actions.act_window,name:social_help.action_social_help_voucher_items_viewer
+#: model:ir.ui.menu,name:social_help.social_help_stock_item_menu_action_viewer
+#: model:ir.ui.menu,name:social_help.social_help_stock_items_viewer_menu
+#: view:social.help.stock.out.forms:0
+#: field:social.help.stock.out.forms,items:0
+#: view:social.help.voucher.item:0
+msgid "Items"
+msgstr "Items"
+
+#. module: social_help
+#: field:social.family.group.member,member_age:0
+#: field:social.help.voucher,member_age:0
+msgid "Age"
+msgstr "Age"
+
+#. module: social_help
+#: field:social.help.voucher,member_id:0
+msgid "Search Beneficiary"
+msgstr "Search Beneficiary"
+
+#. module: social_help
+#: field:social.help.stock.out.forms,voucher_code:0
+#: field:social.help.voucher,voucher_code:0
+msgid "Social Report Code"
+msgstr "Social Report Code"
+
+#. module: social_help
+#: view:res.users:0
+msgid "Cantidad de Ayudas Entregadas por Cada Asistente Social"
+msgstr "Cantidad de Ayudas Entregadas por Cada Asistente Social"
+
+#. module: social_help
+#: view:board.board:0
+msgid "My Board"
+msgstr "My Board"
+
+#. module: social_help
+#: selection:social.family.group.member,member_gender:0
+msgid "Male"
+msgstr "Male"
+
+#. module: social_help
+#: selection:social.family.group.member,member_pension:0
+msgid "AFP"
+msgstr "AFP"
+
+#. module: social_help
+#: field:social.family.group.member,member_full_name:0
+#: view:social.help.voucher:0
+#: field:social.help.voucher,member_full_name:0
+msgid "Full Name"
+msgstr "Full Name"
+
+#. module: social_help
+#: field:social.family.group.member,member_schooling:0
+msgid "Schooling"
+msgstr "Schooling"
+
+#. module: social_help
+#: view:social.family.group:0
+msgid "Family Group Searching"
+msgstr "Family Group Searching"
+
+#. module: social_help
+#: field:social.help.stock.out.forms,type_action:0
+msgid "Action Type"
+msgstr "Action Type"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Beneficiary Sheet"
+msgstr "Beneficiary Sheet"
+
+#. module: social_help
+#: field:social.family.group,family_percapita_income:0
+#: field:social.help.voucher,family_percapita_income:0
+msgid "Percapita Income"
+msgstr "Percapita Income"
+
+#. module: social_help
+#: model:ir.actions.act_window,name:social_help.action_social_help_stock_out_forms
+msgid "Stock Output Forms"
+msgstr "Stock Output Forms"
+
+#. module: social_help
+#: view:social.family.group:0
+msgid "Family Dwelling Description"
+msgstr "Family Dwelling Description"
+
+#. module: social_help
+#: view:social.help.voucher:0
+#: selection:social.help.voucher,state:0
+msgid "Delivered - Without Act"
+msgstr "Delivered - Without Act"
+
+#. module: social_help
+#: view:social.help.stock.out.forms:0
+msgid "Stock Sheet"
+msgstr "Stock Sheet"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Set In Demand Without Act"
+msgstr "Set In Demand Without Act"
+
+#. module: social_help
+#: selection:social.family.group.member,member_marital_status:0
+msgid "Cohabitant"
+msgstr "Cohabitant"
+
+#. module: social_help
+#: model:ir.ui.menu,name:social_help.voucher_menu_action
+msgid "Social Report List"
+msgstr "Social Report List"
+
+#. module: social_help
+#: selection:social.family.group.member,member_pension:0
+msgid "ISP"
+msgstr "ISP"
+
+#. module: social_help
+#: view:social.help.stock.out.forms:0
+#: field:social.help.stock.out.forms,warehouse_number:0
+msgid "Warehouse Number"
+msgstr "Warehouse Number"
+
+#. module: social_help
+#: model:ir.model,name:social_help.model_social_family_group
+msgid "social.family.group"
+msgstr "social.family.group"
+
+#. module: social_help
+#: constraint:res.users:0
+msgid "The chosen company is not in the allowed companies for this user"
+msgstr "The chosen company is not in the allowed companies for this user"
+
+#. module: social_help
+#: view:social.family.group.member:0
+#: field:social.family.group.member,member_health:0
+#: view:social.help.voucher:0
+#: field:social.help.voucher,member_health:0
+msgid "Beneficiary Health"
+msgstr "Beneficiary Health"
+
+#. module: social_help
+#: view:social.family.group.member:0
+msgid "Family Group Member Searching"
+msgstr "Family Group Member Searching"
+
+#. module: social_help
+#: model:ir.actions.act_window,name:social_help.caseworker_graph_view
+msgid "Caseworker Work"
+msgstr "Caseworker Work"
+
+#. module: social_help
+#: field:social.help.voucher,statement:0
+msgid "Statement Code"
+msgstr "Statement Code"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "General Data of Social Report"
+msgstr "General Data of Social Report"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Social Report"
+msgstr "Social Report"
+
+#. module: social_help
+#: view:res.users:0
+msgid "Help Delivered by Caseworker"
+msgstr "Help Delivered by Caseworker"
+
+#. module: social_help
+#: field:social.family.group,family_folio:0
+#: view:social.family.group.member:0
+#: field:social.family.group.member,member_folio:0
+#: view:social.help.voucher:0
+msgid "Unic National Folio"
+msgstr "Unic National Folio"
+
+#. module: social_help
+#: selection:social.family.group.member,member_schooling:0
+msgid "Primary School Uncomplete"
+msgstr "Primary School Uncomplete"
+
+#. module: social_help
+#: selection:social.family.group.member,member_schooling:0
+msgid "High School Uncomplete"
+msgstr "High School Uncomplete"
+
+#. module: social_help
+#: model:ir.model,name:social_help.model_social_family_group_member
+#: field:social.help.voucher,ben_family_members:0
+msgid "Family Members"
+msgstr "Family Members"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Set Delivered Without Act"
+msgstr "Set Delivered Without Act"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Search"
+msgstr "Search"
+
+#. module: social_help
+#: view:board.board:0
+msgid "Item Balance Graph"
+msgstr "Item Balance Graph"
+
+#. module: social_help
+#: view:social.sector:0
+msgid "Help Delivered by Sector"
+msgstr "Help Delivered by Sector"
+
+#. module: social_help
+#: model:ir.actions.act_window,name:social_help.open_board_social
+#: model:ir.ui.menu,name:social_help.menu_board_social
+msgid "Help Manager Dashboard"
+msgstr "Help Manager Dashboard"
+
+#. module: social_help
+#: selection:social.family.group.member,member_schooling:0
+msgid "Technical Degree Uncomplete"
+msgstr "Technical Degree Uncomplete"
+
+#. module: social_help
+#: model:ir.ui.menu,name:social_help.dash_social
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#. module: social_help
+#: view:social.family.group.member:0
+#: field:social.family.group.member,member_situation_eva:0
+#: view:social.help.voucher:0
+#: field:social.help.voucher,member_situation_eva:0
+msgid "Situation and Professional Evaluation"
+msgstr "Situation and Professional Evaluation"
+
+#. module: social_help
+#: field:social.family.group,family_total_income:0
+#: field:social.help.voucher,family_total_income:0
+msgid "Total Income"
+msgstr "Total Income"
+
+#. module: social_help
+#: help:social.help.voucher,statement:0
+msgid "0 if the social help don't have statement "
+msgstr "0 if the social help don't have statement "
+
+#. module: social_help
+#: field:social.help.voucher,ben_observations:0
+msgid "Observations of the Help"
+msgstr "Observations of the Help"
+
+#. module: social_help
+#: view:social.family.group:0
+#: field:social.family.group,family_sector:0
+#: view:social.help.voucher:0
+#: field:social.help.voucher,family_sector:0
+#: view:social.sector:0
+msgid "Sector"
+msgstr "Sector"
+
+#. module: social_help
+#: sql_constraint:res.users:0
+msgid "You can not have two users with the same login !"
+msgstr "You can not have two users with the same login !"
+
+#. module: social_help
+#: view:social.family.group.member:0
+#: field:social.family.group.member,member_marital_status:0
+msgid "Marital Status"
+msgstr "Marital Status"
+
+#. module: social_help
+#: model:ir.actions.report.xml,name:social_help.social_help_delivery_act_report
+msgid "Imprimir Acta de Entrega"
+msgstr "Imprimir Acta de Entrega"
+
+#. module: social_help
+#: view:social.help.stock.out.forms:0
+msgid "Search by Item"
+msgstr "Search by Item"
+
+#. module: social_help
+#: model:ir.model,name:social_help.model_res_users
+msgid "res.users"
+msgstr "res.users"
+
+#. module: social_help
+#: field:social.family.group,family_num_women:0
+#: field:social.help.voucher,family_num_women:0
+msgid "Women"
+msgstr "Women"
+
+#. module: social_help
+#: field:social.family.group,family_num_children:0
+#: field:social.help.voucher,family_num_children:0
+msgid "Children"
+msgstr "Children"
+
+#. module: social_help
+#: field:social.family.group.member,member_rut:0
+msgid "RUT"
+msgstr "RUT"
+
+#. module: social_help
+#: model:ir.model,name:social_help.model_social_help_voucher
+msgid "Social Report Form"
+msgstr "Social Report Form"
+
+#. module: social_help
+#: model:ir.actions.report.xml,name:social_help.social_help_decreto_report
+msgid "Imprimir Decreto"
+msgstr "Imprimir Decreto"
+
+#. module: social_help
+#: code:addons/social_help/stock.py:54
+#, python-format
+msgid "The Warehouse Number is to long, (10 numbers max)!"
+msgstr "The Warehouse Number is to long, (10 numbers max)!"
+
+#. module: social_help
+#: field:social.family.group.member,member_activity:0
+msgid "Current Activity"
+msgstr "Current Activity"
+
+#. module: social_help
+#: field:social.help.voucher,ben_description:0
+msgid "Description of the Help"
+msgstr "Description of the Help"
+
+#. module: social_help
+#: code:addons/social_help/social_assistance.py:35
+#, python-format
+msgid "You do not have the number of items requested to be delivered"
+msgstr "You do not have the number of items requested to be delivered"
+
+#. module: social_help
+#: view:social.family.group.member:0
+#: field:social.family.group.member,member_observations:0
+#: view:social.help.voucher:0
+msgid "Observations"
+msgstr "Observations"
+
+#. module: social_help
+#: selection:social.family.group.member,member_schooling:0
+msgid "Primary School Complete"
+msgstr "Primary School Complete"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Description"
+msgstr "Description"
+
+#. module: social_help
+#: view:social.family.group:0
+msgid "Family Income Description"
+msgstr "Family Income Description"
+
+#. module: social_help
+#: selection:social.family.group.member,member_schooling:0
+msgid "College Complete"
+msgstr "College Complete"
+
+#. module: social_help
+#: view:social.family.group:0
+msgid "Family Form"
+msgstr "Family Form"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Previous Data of Social Report"
+msgstr "Previous Data of Social Report"
+
+#. module: social_help
+#: model:ir.model,name:social_help.model_social_sector
+msgid "social.sector"
+msgstr "social.sector"
+
+#. module: social_help
+#: view:social.help.voucher:0
+#: selection:social.help.voucher,state:0
+msgid "Delivered - With Act"
+msgstr "Delivered - With Act"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Set In Demand With Act"
+msgstr "Set In Demand With Act"
+
+#. module: social_help
+#: field:social.family.group.member,member_address:0
+#: field:social.help.voucher,member_address:0
+msgid "Address"
+msgstr "Address"
+
+#. module: social_help
+#: view:social.family.group.member:0
+msgid "List of Family Members"
+msgstr "List of Family Members"
+
+#. module: social_help
+#: view:social.help.voucher:0
+#: field:social.help.voucher,ben_requested_items:0
+msgid "Requested Items"
+msgstr "Requested Items"
+
+#. module: social_help
+#: model:ir.ui.menu,name:social_help.family_group_menu
+msgid "Family Groups"
+msgstr "Family Groups"
+
+#. module: social_help
+#: model:ir.ui.menu,name:social_help.social_help_assistance_manager_menu
+msgid "Social Assistance"
+msgstr "Social Assistance"
+
+#. module: social_help
+#: view:social.help.voucher:0
+msgid "Set Delivered With Act"
+msgstr "Set Delivered With Act"
+
+#. module: social_help
+#: field:social.family.group.member,member_phone:0
+#: field:social.help.voucher,member_phone:0
+msgid "Phone Number"
+msgstr "Phone Number"
+
+#. module: social_help
+#: field:social.help.voucher.item,company_id:0
+msgid "Name"
+msgstr "Name"
+
+#. module: social_help
+#: model:ir.actions.act_window,name:social_help.action_social_help_sector
+#: model:ir.ui.menu,name:social_help.social_sector_menu_action
+msgid "Sectors"
+msgstr "Sectors"
+
+#. module: social_help
+#: field:social.family.group.member,member_gender:0
+msgid "Gender"
+msgstr "Gender"
+
+#. module: social_help
+#: field:social.family.group.member,member_health_insurance:0
+msgid "Health Insurance"
+msgstr "Health Insurance"
+
+#. module: social_help
+#: selection:social.family.group.member,member_schooling:0
+msgid "College Uncomplete"
+msgstr "College Uncomplete"
+
+#. module: social_help
+#: field:social.family.group,family_score:0
+#: field:social.help.voucher,family_score:0
+msgid "Beneficiary Score"
+msgstr "Beneficiary Score"
+
+#. module: social_help
+#: view:social.help.stock.out.forms:0
+#: field:social.help.stock.out.forms,withdrawn_by:0
+msgid "Withdrawn By"
+msgstr "Withdrawn By"
+
+#. module: social_help
+#: view:social.help.voucher:0
+#: selection:social.help.voucher,state:0
+msgid "In Demand - Without Act"
+msgstr "In Demand - Without Act"
+
+#. module: social_help
+#: view:social.family.group.member:0
+#: field:social.family.group.member,member_kinship:0
+msgid "Kinship"
+msgstr "Kinship"
+
+#. module: social_help
+#: field:social.help.voucher,state:0
+msgid "Help State"
+msgstr "Help State"
+
+#. module: social_help
+#: field:social.family.group,family_coord:0
+msgid "Geographical Coordinates"
+msgstr "Geographical Coordinates"
+
+#. module: social_help
+#: field:social.help.voucher.item,amount:0
+msgid "Requested Amount"
+msgstr "Requested Amount"
+
+#. module: social_help
+#: selection:social.family.group.member,member_marital_status:0
+msgid "Single"
+msgstr "Single"
+
+#. module: social_help
+#: field:social.family.group,family_jjvv:0
+#: field:social.help.voucher,family_jjvv:0
+msgid "JJ.VV"
+msgstr "JJ.VV"
+
+#. module: social_help
+#: field:social.family.group,family_total_num:0
+#: field:social.help.voucher,family_total_num:0
+msgid "Total"
+msgstr "Total"
+
+#. module: social_help
+#: code:addons/social_help/stock.py:80
+#, python-format
+msgid "You have some problem with the items, please contact your system administrator!"
+msgstr "You have some problem with the items, please contact your system administrator!"
+
+#. module: social_help
+#: field:social.help.voucher.item,table_id:0
+msgid "Id"
+msgstr "Id"
+

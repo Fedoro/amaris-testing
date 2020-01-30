@@ -1,0 +1,4 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_sector_view","Sector","model_sector","group_sector_view",1,0,0,0
+"access_sector_edit","Sector","model_sector","group_sector_edit",1,1,1,0
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="menu_view_social_order_tree" model="ir.ui.view">
+            <field name="name">social.order.tree</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_tree"/>
+            <field name="arch" type="xml">                
+                    <field name="amount_total" sum="Total Tax Included" widget="monetary" invisible="1"/>                    
+                    <field name="state" invisible="1"/>                
+            </field>
+        </record>
+</odoo>

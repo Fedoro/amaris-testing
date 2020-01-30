@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		<!-- menus principales -->
+	<menuitem id="family_menu_root" name="Family" 
+		groups="family.group_family_view,family.group_family_edit"/>
+	
+
+
+		<!-- sub menus -->
+	<menuitem id="menu_family_group" name="Family" parent="family_menu_root" sequence="10"
+		groups="family.group_family_view,family.group_family_edit"/>
+	<menuitem id="help_stock_menu" name="Help stock" parent="family_menu_root" sequence="20"
+		groups="family.group_family_view,family.group_family_edit"/>
+	<menuitem id="products_family_menu" name="Products" parent="family_menu_root" sequence="30"
+		groups="family.group_family_view,family.group_family_edit"/>
+	<menuitem id="general_report_menu" name="General Report" parent="family_menu_root" sequence="40"
+		groups="family.group_family_view,family.group_family_edit"/>
+
+
+	
+
+
+
+
+		<!-- menus for the entry and exit of raw materials -->    
+    <menuitem action="stock.stock_picking_type_action" id="stock_picking_type_menu" name="Overview"
+        parent="help_stock_menu" sequence="22"/>
+    <menuitem id="all_picking" name="Transfers" parent="help_stock_menu" sequence="22" action="stock.action_picking_tree_all" 
+    	groups="stock.group_stock_manager,stock.group_stock_user"/>    	
+   	<menuitem action="stock.action_inventory_form" id="menu_action_inventory_form" name="Inventory Adjustments" 
+   		parent="help_stock_menu" sequence="23"/>
+   	<menuitem id="menu_stock_scrap" name="Scrap" parent="help_stock_menu"
+        action="stock.action_stock_scrap" sequence="24"/>
+
+
+        <!-- main data for stock movements -->
+    <menuitem id="menu_product_stock" name="Products" action="stock.product_template_action_product"
+        parent="products_family_menu" sequence="31"/>
+    <menuitem id="menu_reordering_rules" action="stock.action_orderpoint_form" name="Supply System" 
+    	parent="products_family_menu" sequence="32"/>
+    <menuitem name="Lots/Serial Numbers" action="stock.action_production_lot_form" id="menu_action_production_lot_form"
+        parent="products_family_menu" groups="stock.group_production_lot" sequence="33"/>
+    <menuitem id="packages_products_family" name="packages" action="stock.action_package_view"
+     	parent="products_family_menu" sequence="34"/>
+
+    	<!-- menus for general report  -->   
+
+    <menuitem action="stock.stock_move_line_action" id="stock_move_line_menu" 
+        parent="general_report_menu" sequence="41"/>
+    <menuitem id="menu_inventory_report" name="Inventory Report" parent="general_report_menu"
+     	sequence="42" action="stock.action_stock_quantity_history"/>
+    <menuitem action="stock.stock_move_action" id="stock_move_menu" parent="general_report_menu" 
+    	sequence="43" groups="base.group_no_one"/> 
+
+
+
+    	<!-- Menus for for modules social help -->
+    <menuitem id="social_help_menu_root" name="Social Help" 
+		groups="family.group_family_view,family.group_family_edit"/>
+
+
+	<menuitem id="menu_beneficiary" name="beneficiary" action="base.action_partner_form" parent="social_help_menu_root"
+        sequence="50" />
+
+	<menuitem id="social_order_menu" name="beneficiary request" parent="social_help_menu_root"
+		sequence="60"/>
+
+	<menuitem id="menu_to_invoice" name="To Invoice" parent="social_help_menu_root" sequence="70"/>
+	
+
+
+	<menuitem id="menu_sale_quotations" action="sale.action_quotations_with_onboarding"
+        parent="social_order_menu" sequence="61" groups="sales_team.group_sale_salesman"/>
+
+    <menuitem id="menu_sale_order" name="Orders" action="sale.action_orders" parent="social_order_menu"
+        sequence="62" groups="sales_team.group_sale_salesman"/>
+
+
+
+   <menuitem id="menu_sale_order_invoice" action="sale.action_orders_to_invoice" parent="menu_to_invoice"
+        sequence="71"/>
+    
+
+
+
+</odoo>

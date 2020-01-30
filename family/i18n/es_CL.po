@@ -1,0 +1,1160 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* family
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-06 16:07+0000\n"
+"PO-Revision-Date: 2019-12-06 13:58-0300\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_CL\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "1 High School"
+msgstr "1° año enseñanza media"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "1 Primary School"
+msgstr "1° año enseñanza básica"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "2 High School"
+msgstr "2° año enseñanza media"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "2 Primary School"
+msgstr "2° año enseñanza básica"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "3 High School"
+msgstr "3° año enseñanza media"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "3 Primary School"
+msgstr "3° año enseñanza básica"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "4 High School"
+msgstr "4° año enseñanza media"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "4 Primary School"
+msgstr "4° año enseñanza básica"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "5 Primary School"
+msgstr "5° año enseñanza básica"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "6 Primary School"
+msgstr "6° año enseñanza básica"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "7 Primary School"
+msgstr "7° año enseñanza básica"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "8 Primary School"
+msgstr "8° año enseñanza básica"
+
+#. module: family
+#: selection:family.group.member,member_pension:0
+msgid "AFP"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_address_number
+msgid "Address Number"
+msgstr ""
+"Numero de la \n"
+"direccion"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_administrative_pension
+msgid "Administrative Pension"
+msgstr "Pension administrativa"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_age
+msgid "Age"
+msgstr "Edad"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Another Relative"
+msgstr "Otro Pariente"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_anual_income_working
+msgid "Anual Income Working"
+msgstr "Ingresos anuales de trabajo"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_apple_code
+msgid "Apple ID"
+msgstr "Id de cuadra"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_dwelling_bathroom
+msgid "Bathroom Use"
+msgstr "Uso del baño"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_indigen
+msgid "Belongs to an Indigen Heritage"
+msgstr "Pertenece o tiene descendencia indigena"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_score
+msgid "Beneficiary Score"
+msgstr "Puntaje del beneficiario"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_block
+msgid "Block/House"
+msgstr "Bloque/casa"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Brother or Sister"
+msgstr "Hermano/a"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Brother-in-law or Sister-in-law"
+msgstr "Cuñado/a"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "Casual Worker"
+msgstr "Trabajador(a) Ocasional"
+
+#. module: family
+#: selection:family.group.member,member_suf:0
+msgid "Causante de SUF"
+msgstr ""
+
+#. module: family
+#: selection:family.group.member,member_marital_status:0
+msgid "Cohabitant"
+msgstr "Conviviente"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "College Complete"
+msgstr "Educación Superior Completa"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "College Uncomplete"
+msgstr "Educación Superior Incompleta"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_review_date
+msgid "Communal Review Date"
+msgstr "Fecha de revision comunitaria"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_supervision_date
+msgid "Communal Supervision Date"
+msgstr "Fecha de supervision comunitaria"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_commune_id
+msgid "Commune ID"
+msgstr "Id de la Comuna"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_couple
+msgid "Couple"
+msgstr "Pareja"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__create_uid
+#: model:ir.model.fields,field_description:family.field_family_group_member__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__create_date
+#: model:ir.model.fields,field_description:family.field_family_group_member__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_activity
+msgid "Current Activity"
+msgstr "Actividad actual"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_date_birth
+msgid "Date of Birth"
+msgstr "Fecha de nacimiento"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_date_of_death
+msgid "Date of Death"
+msgstr "Fecha de muerte"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_department_site
+msgid "Department/Site"
+msgstr "Departamento/sitio"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__display_name
+#: model:ir.model.fields,field_description:family.field_family_group_member__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: family
+#: selection:family.group.member,member_marital_status:0
+msgid "Divorced"
+msgstr "Divorciado/a"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_dwelling_code
+msgid "Dwelling Code"
+msgstr "Codigo de vivienda"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Dwelling Details"
+msgstr "Detalle de la vivienda"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_dwelling_ownership
+msgid "Dwelling Ownership"
+msgstr "Propietario de la vivienda"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_dwelling
+msgid "Dwelling References"
+msgstr "Refencias de la vivienda"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_dwelling_water_source
+msgid "Dwelling Water Source"
+msgstr "Fuente o suministro de agua de la vivienda"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_E1
+msgid "E1"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_E2
+msgid "E2"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_E3
+msgid "E3"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_E4
+msgid "E4"
+msgstr ""
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "Education"
+msgstr "Educacion"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_dwelling_excretion_system
+msgid "Excretions Elimination System"
+msgstr "sistema de eliminacion de residuos(Baño)"
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "FONASA A"
+msgstr ""
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "FONASA B"
+msgstr ""
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "FONASA C"
+msgstr ""
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "FONASA D"
+msgstr ""
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "FONASA E"
+msgstr ""
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "FPS"
+msgstr ""
+
+#. module: family
+#: model:ir.ui.menu,name:family.family_group_menu
+#: model:ir.ui.menu,name:family.family_menu
+msgid "Family"
+msgstr "Familia"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_informant
+msgid "Family Authorized Informant"
+msgstr "Representante familiar"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_decile
+msgid "Family Decile"
+msgstr "Decil familiar"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_description
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Family Description"
+msgstr "Descripcion de la familia"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Family Dwelling Description"
+msgstr "Descripcion de la vivienda familiar"
+
+#. module: family
+#: model:res.groups,name:family.group_family_edit
+msgid "Family Edit"
+msgstr "Editar Familia"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Family Form"
+msgstr "Formulario familiar"
+
+#. module: family
+#: model:ir.actions.act_window,name:family.action_family_group
+#: model:ir.model,name:family.model_family_group
+#: model:ir.ui.menu,name:family.family_group_action_menu
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Family Group"
+msgstr "Grupo Familiar"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Family Group Identification"
+msgstr "ID del grupo familiar"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.view_family_group_member_filter
+msgid "Family Group Member Searching"
+msgstr "Busqueda de miembros del grupo familiar"
+
+#. module: family
+#: model:ir.actions.act_window,name:family.action_family_group_member
+#: model:ir.ui.menu,name:family.family_group_member_menu
+msgid "Family Group Members"
+msgstr "Miembros del Grupo Familiar"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.view_family_group_filter
+msgid "Family Group Searching"
+msgstr "Busqueda del grupo familiar"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_health
+msgid "Family Health"
+msgstr "Estado de salud"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Family Health Description"
+msgstr "Descripcion del estado de salud"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Family Income Description"
+msgstr "Descripcion del ingreso familiar"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_income_description
+msgid "Family Income Descriptions"
+msgstr "Descripciones de ingresos familiares"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "Family Member Form"
+msgstr "Formulario de miebro de cada  familia"
+
+#. module: family
+#: model:ir.model,name:family.model_family_group_member
+#: model:ir.model.fields,field_description:family.field_family_group__family_members
+msgid "Family Members"
+msgstr "Miembros del Grupo Familiar"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_order
+msgid "Family Order"
+msgstr "Orden familiar"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_quintile
+msgid "Family Quitile"
+msgstr "Quintil al que pertenece la familia"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_references
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Family References"
+msgstr "Refencias familiar"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.family_tree
+msgid "Family Tree"
+msgstr "Arbol familiar"
+
+#. module: family
+#: model:res.groups,name:family.group_family_view
+msgid "Family View"
+msgstr "Vista de Familia"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Father-in-Law or Mother-in-Law"
+msgstr "Suegro o Suegra"
+
+#. module: family
+#: selection:family.group.member,member_gender:0
+msgid "Female"
+msgstr "Femenino"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_application_date
+msgid "File Application Date"
+msgstr "Fecha de solicitud del archivo"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_full_name
+msgid "Full Name"
+msgstr "Nombre completo"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_gender
+msgid "Gender"
+msgstr "Genero"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "General Data"
+msgstr "Informacion general"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_coord
+msgid "Geographical Coordinates"
+msgstr "Coordenadas geograficas"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Grandfather or Grandmother"
+msgstr "Abuelo/a"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Grandson or Granddaughter"
+msgstr "Nieto/a"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Great-Grandson or Great-Granddaughter"
+msgstr "Bisnieto/a"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.view_family_group_filter
+#: model_terms:ir.ui.view,arch_db:family.view_family_group_member_filter
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_head
+msgid "Head of Family"
+msgstr "Jefe del hogar"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Head of Household"
+msgstr "Jefe/a de Familia"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "Health"
+msgstr "Salud"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_health_insurance
+msgid "Health Insurance"
+msgstr "Seguro de salud"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "High School Complete"
+msgstr "Estudios Secundarios Completo"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "High School Uncomplete"
+msgstr "Educación Media Incompleta"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "Hostess"
+msgstr "Dueño/a de Casa"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_hours
+msgid "Hours"
+msgstr "Horas"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_I1
+msgid "I1"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_I2
+msgid "I2"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_I3
+msgid "I3"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__id
+#: model:ir.model.fields,field_description:family.field_family_group_member__id
+msgid "ID"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_code_housing_gr
+msgid "ID of Housing Group"
+msgstr ""
+"ID del grupo de vivi\n"
+"enda"
+
+#. module: family
+#: selection:family.group.member,member_pension:0
+msgid "IPS"
+msgstr ""
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+msgid "ISAPRE"
+msgstr "ISAPRE"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "Iliterate"
+msgstr "Analfabeto"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "In Well-Child"
+msgstr "En Control de Niño Sano"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_income
+msgid "Income"
+msgstr "Ingreso"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "Incoming"
+msgstr "Ingresos  entrantes"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_inspector_code
+msgid "Inspector Code"
+msgstr "Codigo del inspector"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_kinship
+#: model_terms:ir.ui.view,arch_db:family.view_family_group_member_filter
+msgid "Kinship"
+msgstr "Parentesco"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group____last_update
+#: model:ir.model.fields,field_description:family.field_family_group_member____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__write_uid
+#: model:ir.model.fields,field_description:family.field_family_group_member__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__write_date
+#: model:ir.model.fields,field_description:family.field_family_group_member__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_last_update_date
+msgid "Lastest Update Date"
+msgstr "Fecha de la ultima actualizacion"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.member_tree
+msgid "List of Family Members"
+msgstr "Lista de los miembros de la familia"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Localization"
+msgstr "Localización"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Localization and File Management"
+msgstr "Localizacion y gestion de archivos"
+
+#. module: family
+#: selection:family.group.member,member_gender:0
+msgid "Male"
+msgstr "Masculino"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_marital_status
+#: model_terms:ir.ui.view,arch_db:family.view_family_group_member_filter
+msgid "Marital Status"
+msgstr "Estado civil"
+
+#. module: family
+#: selection:family.group.member,member_marital_status:0
+msgid "Married"
+msgstr "Casado/a"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_mins
+msgid "Minutes"
+msgstr "Minutos"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_sector
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Name of Camp Name, Town, Village, or other indigenous community"
+msgstr "Nombre del campamento,  pueblo, villa, aldea u otra comunidad indigena"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_name_localization
+msgid "Name of Living Place"
+msgstr "Nombre del luagar en el que vive"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_nationality
+msgid "Nationality"
+msgstr "Nacionalidad"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_neighborhood_unit
+msgid "Neighborhood Unit"
+msgstr "Junta de vecinos"
+
+#. module: family
+#: selection:family.group.member,member_suf:0
+msgid "No es Causante de SUF"
+msgstr ""
+
+#. module: family
+#: selection:family.group.member,member_health_insurance:0
+#: selection:family.group.member,member_pension:0
+#: selection:family.group.member,member_schooling:0
+#: selection:family.group.member,member_suf:0
+msgid "None"
+msgstr "Ningúno"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Not Relative"
+msgstr "No es Pariente"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_dwelling_rooms
+msgid "Number of Bedrooms"
+msgstr "Cantidad de habitaciones"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_people_folio
+msgid "Number of Folio People"
+msgstr "Numero de personas por folio"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_dwelling_people_number_nonincluded
+msgid "Number of People non-included on the Social File"
+msgstr "Numero de personas en el archivo social"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O1
+msgid "O1"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O10a
+msgid "O10a"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O10b
+msgid "O10b"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O10c
+msgid "O10c"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O10d
+msgid "O10d"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O10e
+msgid "O10e"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O10f
+msgid "O10f"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O10g
+msgid "O10g"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O11a
+msgid "O11a"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O11b
+msgid "O11b"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O11c
+msgid "O11c"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O11d
+msgid "O11d"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O11e
+msgid "O11e"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O11f
+msgid "O11f"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O11g
+msgid "O11g"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O12
+msgid "O12"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O2
+msgid "O2"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O3
+msgid "O3"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O4
+msgid "O4"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O5
+msgid "O5"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O6
+msgid "O6"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O7
+msgid "O7"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O8
+msgid "O8"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_O9
+msgid "O9"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_observations
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "Observations"
+msgstr "Observaciones"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "Ocupation"
+msgstr "Ocupacion"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Only Son/Daughter of the Household Head"
+msgstr "Hijo/a Sólo del/a Jefe/a de Familia"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Only Son/Daughter of the Spouse or Partner"
+msgstr "Hijo/a Sólo del Cónyuge o Pareja"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_other_incomes
+msgid "Other Incomes"
+msgstr "Otros Ingresos"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Parent"
+msgstr "Padre o Madre"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_pension
+msgid "Pension Assistance"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_phone
+msgid "Phone Number"
+msgstr "Numero telefonico"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_last_update_pollster_code
+#: model:ir.model.fields,field_description:family.field_family_group__family_pollster_code
+msgid "Pollster Code"
+msgstr "Codigo de encuestador"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "Primary School Complete"
+msgstr "Educación Básica Completa"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "Primary School Uncomplete"
+msgstr "Educación Básica Incompleta"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_dwelling_principal
+msgid "Principal Family of the Dwelling"
+msgstr "Jefe de familia de la vivienda"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_rut
+msgid "RUT"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_reasons_outsleeping
+msgid "Reasons of why Sleeps Outside"
+msgstr "Razones del por que duerme fuera del hogar"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_retirement_pension
+msgid "Retirement or Pension"
+msgstr "Jubilado/pencionado"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S1
+msgid "S1"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S2
+msgid "S2"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S3
+msgid "S3"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S4
+msgid "S4"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S5a
+msgid "S5a"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S5b
+msgid "S5b"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S5c
+msgid "S5c"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S5d
+msgid "S5d"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S5e
+msgid "S5e"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S5f
+msgid "S5f"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S6
+msgid "S6"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S7
+msgid "S7"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S8a
+msgid "S8a"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S8b
+msgid "S8b"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S8c
+msgid "S8c"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S8d
+msgid "S8d"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_S8e
+msgid "S8e"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_suf
+msgid "SUF"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_schooling
+msgid "Schooling"
+msgstr "Escolaridad"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_score_date
+msgid "Score Date"
+msgstr "Puntuacion por año"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.view_family_group_filter
+msgid "Sector"
+msgstr ""
+
+#. module: family
+#: selection:family.group.member,member_marital_status:0
+msgid "Single"
+msgstr "Soltero/a"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_site_ownership
+msgid "Site Ownership"
+msgstr "Propietario del sitio"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_situation_eva
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "Situation and Professional Evaluation"
+msgstr "Situacion y evaluacion profesional"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_out_of_dwelling
+msgid "Sleeps Outside the Family Dwelling"
+msgstr "Cuantos duermen fuera del hogar"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "Social Help File"
+msgstr "Archivo de ayuda social"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Son-in-law or daughter-in-law"
+msgstr "Yerno o Nuera"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Spounse or Partner"
+msgstr "Cónyuge o Pareja"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "Stable Worker"
+msgstr "Trabajador(a) Estable"
+
+#. module: family
+#: selection:family.group.member,member_pension:0
+msgid "State"
+msgstr "Estado"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_street_code
+msgid "Street ID"
+msgstr "Id de la calle"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_street_name
+#: model_terms:ir.ui.view,arch_db:family.family_form
+msgid "Street Name"
+msgstr "Nombre de la calle"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "Student"
+msgstr "Estudiante"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_supervisor_code
+msgid "Supervisor Code"
+msgstr "Codigo del supervisor"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "Technical Degree Complete"
+msgstr "Estudios Técnicos Completos"
+
+#. module: family
+#: selection:family.group.member,member_schooling:0
+msgid "Technical Degree Uncomplete"
+msgstr "Estudios Técnicos Incompletos"
+
+#. module: family
+#: selection:family.group.member,member_kinship:0
+msgid "Their Son/Daughter"
+msgstr "Hijo/a de Ambos"
+
+#. module: family
+#: sql_constraint:family.group:0
+msgid "This Folios already exist on the table!"
+msgstr "El Folio ya se encuentra en los registros!"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_transport
+msgid "Transport"
+msgstr "Transporte"
+
+#. module: family
+#: model_terms:ir.ui.view,arch_db:family.member_form
+msgid "Travel times to the emergency and transportation"
+msgstr ""
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_type_housing_gr
+msgid "Type of Housing Group"
+msgstr "Tipo de grupo familiar"
+
+#. module: family
+#: selection:family.group.member,member_activity:0
+msgid "Unemployed"
+msgstr "Desempleado/a"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_folio
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_folio
+#: model_terms:ir.ui.view,arch_db:family.view_family_group_member_filter
+msgid "Unic National Folio"
+msgstr "Folio unico familiar"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_dwelling_water_distribution
+msgid "Water Distribution on Dwelling"
+msgstr "Distribucion de agua en la vivienda"
+
+#. module: family
+#: selection:family.group.member,member_marital_status:0
+msgid "Widow/er"
+msgstr "Viudo/a"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group__family_zone
+msgid "Zone"
+msgstr "Zona"
+
+#. module: family
+#: model:ir.model.fields,field_description:family.field_family_group_member__member_code
+msgid "code"
+msgstr "Codigo"
+
+#. module: family
+#: model:ir.ui.menu,name:family.family_menu_root
+msgid "family"
+msgstr "Familia"

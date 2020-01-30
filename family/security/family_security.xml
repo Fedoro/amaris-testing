@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+		<record id="group_family_view" model="res.groups">
+			<field name="name">Family View</field>
+		</record>
+		<record id="group_family_edit" model="res.groups">
+			<field name="name">Family Edit</field>
+		</record>
+</odoo>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+	<record id="action_social_help_stock_items_graph_view" model="ir.actions.act_window">
+		<field name="name">Item Graph</field>
+		<field name="res_model">social.help.stock.items</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">graph</field>
+		<field name="view_id" ref="social_help_stock.social_help_stock_items_graph_view"/>
+	</record>
+
+	<record id="caseworker_graph_view" model="ir.actions.act_window">
+		<field name="name">Caseworker Work</field>
+		<field name="res_model">res.users</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">graph</field>
+		<field name="domain">[('count','!=','0')]</field>
+		<field name="view_id" ref="social_help.social_caseworker_graph"/>
+	</record>
+
+	<record id="sector_graph_view" model="ir.actions.act_window">
+		<field name="name">Helps by Sector</field>
+		<field name="res_model">social.sector</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">graph</field>
+		<field name="view_id" ref="social_help.social_sector_graph"/>
+	</record>
+
+
+	<record id="board_social_form" model="ir.ui.view">
+		<field name="name">board.social.form</field>
+		<field name="model">board.board</field>
+		<field name="type">form</field>
+		<field name="arch" type="xml">
+		<form string="My Board">
+			<board style="1-2">
+				<column>
+					<action name="%(caseworker_graph_view)d" string="Helps by Caseworker" creatable="true"/>
+					<action name="%(sector_graph_view)d" string="Helps by Sector" creatable="true"/>
+				</column>
+				<column>
+					<action name="%(social_help_stock.action_social_help_stock_items_viewer)d"
+						string="Items" creatable="true"/>
+					<action name="%(action_social_help_stock_items_graph_view)d"
+						string="Item Balance Graph" creatable="true"/>
+				</column>
+			</board>
+		</form>
+		</field>
+	</record>
+
+	<record id="open_board_social" model="ir.actions.act_window">
+		<field name="name">Help Manager Dashboard</field>
+		<field name="res_model">board.board</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">form</field>
+		<field name="usage">menu</field>
+		<field name="view_id" ref="board_social_form"/>
+	</record>
+
+	<menuitem id="dash_social" name="Dashboard" sequence="0" parent="social_help_stock.configuration_menu"/>
+	<menuitem action="open_board_social" icon="terp-graph" id="menu_board_social" parent="dash_social" sequence="41"/>
+<!--	<menuitem id="stock_social_help.social_help_manager_menu" name="Help Manager" action="open_board_social"
+		groups="group_social_help_DIDECO,group_social_help_administrator" sequence="5"/>-->
+
+</odoo>
