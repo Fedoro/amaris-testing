@@ -16,7 +16,6 @@
 		'report/social_help_reports.xml',
 		'data/data.xml'
 	],
-	'demo_xml': [],
 	'installable': True,
 	'active': False
 	#       'certificate': 'certificate',
