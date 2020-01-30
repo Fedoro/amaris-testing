@@ -5,8 +5,7 @@
 	'author': 'Fedoro, Cantos, Stratanet',
 	'category': 'others',
 	'website': 'http://www.stratanet.cl',
-	'depends': ['base','l10n_cl_toponym',
-				'social_help_stock'],
+	'depends': ['base','l10n_cl_toponym'],
 	'data': [
 #		'security/social_help_security.xml',
 #		'security/ir.model.access.csv',
